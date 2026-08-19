@@ -1,621 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Car Lockout Service El Paso TX | Light It Up Roadside</title>
-
-  <meta name="description" content="Locked your keys in your car in El Paso, TX? Light It Up Roadside provides mobile car lockout assistance. Call or text (915) 247-2969. Starting at $65.">
-
-  <link rel="canonical" href="https://lightituproadside.github.io/emergency/car-lockout-el-paso/">
-
-  <meta property="og:title" content="Car Lockout Service El Paso TX | Light It Up Roadside">
-  <meta property="og:description" content="Locked your keys in your car? Get fast local car lockout assistance in El Paso. Starting at $65.">
-  <meta property="og:url" content="https://lightituproadside.github.io/emergency/car-lockout-el-paso/">
-  <meta property="og:type" content="website">
-
-  <link rel="icon" href="../logo.png">
-
-  <style>
-    :root {
-      --yellow: #ffc21c;
-      --yellow-dark: #e7a900;
-      --black: #090a0e;
-      --card: #191d27;
-      --card-light: #202532;
-      --text: #f5f5f7;
-      --muted: #b8bdc9;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      background:
-        radial-gradient(circle at top, rgba(255,194,28,.12), transparent 35%),
-        var(--black);
-      color: var(--text);
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-    }
-
-    a {
-      color: inherit;
-    }
-
-    .page {
-      min-height: 100vh;
-      padding-bottom: 90px;
-    }
-
-    /* HEADER */
-
-    .header {
-      padding: 22px 18px 12px;
-      text-align: center;
-      border-bottom: 1px solid rgba(255,255,255,.08);
-      background: rgba(9,10,14,.96);
-    }
-
-    .logo {
-      width: 82px;
-      height: 82px;
-      object-fit: contain;
-      border-radius: 20px;
-      background: #fff;
-      padding: 7px;
-      box-shadow: 0 8px 25px rgba(255,194,28,.22);
-    }
-
-    .brand {
-      margin: 10px 0 0;
-      font-size: 1.55rem;
-      font-weight: 800;
-      letter-spacing: -.5px;
-    }
-
-    .location {
-      margin: 3px 0 0;
-      color: var(--muted);
-      font-size: .95rem;
-    }
-
-    /* MAIN */
-
-    .container {
-      width: min(920px, calc(100% - 30px));
-      margin: 0 auto;
-    }
-
-    .back {
-      display: inline-block;
-      margin: 18px 0 0;
-      color: var(--muted);
-      text-decoration: none;
-      font-weight: 700;
-      font-size: .95rem;
-    }
-
-    .back:hover {
-      color: var(--yellow);
-    }
-
-    /* HERO */
-
-    .hero {
-      text-align: center;
-      padding: 45px 10px 35px;
-    }
-
-    .badge {
-      display: inline-block;
-      background: rgba(255,194,28,.13);
-      border: 1px solid rgba(255,194,28,.4);
-      color: var(--yellow);
-      border-radius: 999px;
-      padding: 7px 15px;
-      font-size: .85rem;
-      font-weight: 800;
-      margin-bottom: 18px;
-    }
-
-    .hero h1 {
-      margin: 0 auto 18px;
-      max-width: 800px;
-      font-size: clamp(2.3rem, 8vw, 4.5rem);
-      line-height: .98;
-      letter-spacing: -2px;
-    }
-
-    .hero h1 span {
-      color: var(--yellow);
-    }
-
-    .hero p {
-      max-width: 700px;
-      margin: 0 auto;
-      color: var(--muted);
-      font-size: 1.12rem;
-    }
-
-    /* PRICE */
-
-    .price {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      margin-top: 25px;
-      padding: 11px 18px;
-      background: #fff;
-      color: #111;
-      border-radius: 999px;
-      font-weight: 800;
-      box-shadow: 0 8px 25px rgba(0,0,0,.25);
-    }
-
-    .price strong {
-      font-size: 1.25rem;
-    }
-
-    /* BUTTONS */
-
-    .hero-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 12px;
-      margin-top: 25px;
-    }
-
-    .button {
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 54px;
-      padding: 0 25px;
-      border-radius: 15px;
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 1.05rem;
-      transition: transform .15s ease, box-shadow .15s ease;
-    }
-
-    .button:hover {
-      transform: translateY(-2px);
-    }
-
-    .button-primary {
-      background: var(--yellow);
-      color: #111;
-      box-shadow: 0 10px 28px rgba(255,194,28,.22);
-    }
-
-    .button-secondary {
-      background: #111;
-      border: 1px solid rgba(255,255,255,.16);
-      color: #fff;
-    }
-
-    /* EMERGENCY CARD */
-
-    .emergency {
-      background:
-        linear-gradient(135deg, rgba(255,194,28,.18), rgba(255,194,28,.04)),
-        var(--card);
-      border: 1px solid rgba(255,194,28,.3);
-      border-radius: 25px;
-      padding: 28px 23px;
-      margin: 10px 0 25px;
-      text-align: center;
-      box-shadow: 0 15px 45px rgba(0,0,0,.28);
-    }
-
-    .emergency h2 {
-      margin: 0 0 7px;
-      font-size: 1.8rem;
-    }
-
-    .emergency p {
-      margin: 0;
-      color: var(--muted);
-    }
-
-    /* CARDS */
-
-    .card {
-      background: var(--card);
-      border: 1px solid rgba(255,255,255,.07);
-      border-radius: 23px;
-      padding: 27px 23px;
-      margin: 20px 0;
-      box-shadow: 0 12px 35px rgba(0,0,0,.2);
-    }
-
-    .card h2 {
-      margin: 0 0 12px;
-      font-size: 1.65rem;
-    }
-
-    .card h2::before {
-      content: "";
-      display: inline-block;
-      width: 7px;
-      height: 25px;
-      margin-right: 10px;
-      vertical-align: -4px;
-      border-radius: 5px;
-      background: var(--yellow);
-    }
-
-    .card p {
-      color: var(--muted);
-      margin: 0 0 12px;
-    }
-
-    .card p:last-child {
-      margin-bottom: 0;
-    }
-
-    /* SERVICE GRID */
-
-    .service-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 14px;
-      margin-top: 18px;
-    }
-
-    .service {
-      background: var(--card-light);
-      border-radius: 17px;
-      padding: 18px;
-      border: 1px solid rgba(255,255,255,.06);
-    }
-
-    .service-icon {
-      font-size: 1.6rem;
-      margin-bottom: 6px;
-    }
-
-    .service strong {
-      display: block;
-      margin-bottom: 3px;
-    }
-
-    .service span {
-      color: var(--muted);
-      font-size: .9rem;
-    }
-
-    /* STEPS */
-
-    .steps {
-      counter-reset: step;
-      padding: 0;
-      margin: 0;
-      list-style: none;
-    }
-
-    .steps li {
-      counter-increment: step;
-      position: relative;
-      padding: 13px 0 13px 48px;
-      color: var(--muted);
-    }
-
-    .steps li::before {
-      content: counter(step);
-      position: absolute;
-      left: 0;
-      top: 9px;
-      width: 34px;
-      height: 34px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 50%;
-      background: var(--yellow);
-      color: #111;
-      font-weight: 900;
-    }
-
-    /* CTA */
-
-    .final-cta {
-      margin-top: 28px;
-      padding: 35px 22px;
-      text-align: center;
-      border-radius: 25px;
-      background: linear-gradient(135deg, #ffc21c, #ffdb55);
-      color: #111;
-      box-shadow: 0 18px 50px rgba(255,194,28,.18);
-    }
-
-    .final-cta h2 {
-      margin: 0 0 8px;
-      font-size: 2rem;
-      line-height: 1.1;
-    }
-
-    .final-cta p {
-      margin: 0 auto 20px;
-      max-width: 600px;
-      font-weight: 700;
-    }
-
-    .final-cta .button {
-      background: #111;
-      color: #fff;
-    }
-
-    /* STICKY CALL */
-
-    .sticky-call {
-      position: fixed;
-      left: 50%;
-      bottom: 14px;
-      transform: translateX(-50%);
-      width: min(380px, calc(100% - 28px));
-      z-index: 999;
-    }
-
-    .sticky-call a {
-      display: block;
-      text-align: center;
-      background: var(--yellow);
-      color: #111;
-      padding: 16px 20px;
-      border-radius: 16px;
-      text-decoration: none;
-      font-size: 1.1rem;
-      font-weight: 900;
-      box-shadow: 0 8px 30px rgba(0,0,0,.45);
-    }
-
-    /* FOOTER */
-
-    footer {
-      text-align: center;
-      color: #8f95a3;
-      font-size: .85rem;
-      padding: 30px 20px 10px;
-    }
-
-    @media (max-width: 600px) {
-      .hero {
-        padding-top: 35px;
-      }
-
-      .hero h1 {
-        letter-spacing: -1.3px;
-      }
-
-      .hero-buttons {
-        flex-direction: column;
-      }
-
-      .button {
-        width: 100%;
-      }
-
-      .service-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .card {
-        padding: 24px 20px;
-      }
-    }
-  </style>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "AutomotiveBusiness",
-    "name": "Light It Up Roadside Assistance",
-    "url": "https://lightituproadside.github.io/emergency/",
-    "telephone": "+1-915-247-2969",
-    "areaServed": {
-      "@type": "City",
-      "name": "El Paso",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "El Paso",
-        "addressRegion": "TX",
-        "addressCountry": "US"
-      }
-    },
-    "serviceType": "Car Lockout Service"
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Car Lockout Service in El Paso, TX | Light It Up Roadside</title>
+
+<meta name="description" content="Locked your keys inside your vehicle? Light It Up Roadside provides fast mobile car lockout service throughout El Paso, TX. Call or text 24/7.">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0b0b0f;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.container {
+  width: 92%;
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  padding: 18px 0;
+  border-bottom: 1px solid #292929;
+}
+
+.back {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 55px 10px 40px;
+}
+
+.badge {
+  display: inline-block;
+  background: #ffd21c;
+  color: #111;
+  padding: 7px 15px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-size: clamp(36px, 8vw, 64px);
+  line-height: 1.05;
+  margin: 0 auto 20px;
+  color: #ffd21c;
+}
+
+.hero p {
+  font-size: 19px;
+  max-width: 700px;
+  margin: 0 auto 25px;
+  color: #dddddd;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.price span {
+  color: #ffd21c;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.button {
+  display: inline-block;
+  padding: 16px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.call {
+  background: #ffd21c;
+  color: #111;
+}
+
+.text {
+  background: #ffffff;
+  color: #111;
+}
+
+.section {
+  background: #181a22;
+  border: 1px solid #292c36;
+  border-radius: 22px;
+  padding: 30px 25px;
+  margin: 22px 0;
+}
+
+.section h2 {
+  color: #ffd21c;
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.feature {
+  background: #101116;
+  border-radius: 15px;
+  padding: 18px;
+}
+
+.feature strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.check {
+  color: #ffd21c;
+  font-weight: bold;
+}
+
+.cta {
+  text-align: center;
+  background: linear-gradient(135deg, #ffd21c, #ffb900);
+  color: #111;
+  border-radius: 24px;
+  padding: 38px 25px;
+  margin: 30px 0;
+}
+
+.cta h2 {
+  font-size: 34px;
+  margin: 0 0 10px;
+}
+
+.cta p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cta .button {
+  background: #111;
+  color: #fff;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  color: #999;
+  padding: 30px 10px 45px;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .features {
+    grid-template-columns: 1fr;
   }
-  </script>
+
+  .hero {
+    padding-top: 40px;
+  }
+
+  .section {
+    padding: 25px 20px;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+}
+</style>
 </head>
 
 <body>
 
-<div class="page">
-
-  <header class="header">
-    <img class="logo" src="../logo.png" alt="Light It Up Roadside Assistance logo">
-
-    <div class="brand">Light It Up Roadside Assistance</div>
-
-    <div class="location">
-      El Paso, TX • Mobile Roadside Assistance
-    </div>
-  </header>
-
-  <main class="container">
-
+<header>
+  <div class="container">
     <a class="back" href="../">← Back to Light It Up Roadside</a>
+  </div>
+</header>
 
-    <section class="hero">
+<main>
 
-      <div class="badge">🚗 CAR LOCKOUT SERVICE</div>
+<section class="hero">
+  <div class="badge">24/7 MOBILE SERVICE • EL PASO, TX</div>
 
-      <h1>
-        Locked Out of Your Car in <span>El Paso?</span>
-      </h1>
+  <h1>Car Lockout Service in El Paso, TX</h1>
 
-      <p>
-        Light It Up Roadside Assistance provides mobile car lockout help
-        throughout El Paso, Texas. Call or text and we'll come to you.
-      </p>
+  <p>
+    Locked your keys inside your vehicle?
+    Light It Up Roadside provides mobile car lockout assistance
+    throughout El Paso, Texas.
+  </p>
 
-      <div class="price">
-        <span>Starting at</span>
-        <strong>$65</strong>
-      </div>
+  <div class="price">
+    Lockouts <span>starting at $65</span>
+  </div>
 
-      <div class="hero-buttons">
-        <a class="button button-primary" href="tel:+19152472969">
-          📞 Call Now
-        </a>
+  <div class="buttons">
+    <a class="button call" href="tel:+19152472969">
+      📞 Call Now
+    </a>
 
-        <a class="button button-secondary" href="sms:+19152472969">
-          💬 Text Us
-        </a>
-      </div>
+    <a class="button text" href="sms:+19152472969">
+      💬 Text Us
+    </a>
+  </div>
+</section>
 
-    </section>
+<div class="container">
 
-    <section class="emergency">
+<section class="section">
+  <h2>Locked Your Keys in Your Car?</h2>
 
-      <h2>Need Help Right Now?</h2>
+  <p>
+    Getting locked out of your vehicle can happen at any time.
+    Light It Up Roadside provides local mobile lockout service
+    in El Paso to help drivers get back into their vehicles.
+  </p>
 
-      <p>
-        Don't stay locked out. Call or text Light It Up Roadside Assistance
-        for mobile roadside help in El Paso.
-      </p>
+  <p>
+    Whether your keys are locked inside the vehicle or you've
+    accidentally locked yourself out, call or text for roadside assistance.
+  </p>
+</section>
 
-    </section>
+<section class="section">
+  <h2>Our Car Lockout Service</h2>
 
-    <section class="card">
+  <div class="features">
 
-      <h2>Car Lockout Assistance in El Paso</h2>
+    <div class="feature">
+      <strong>🔑 Car Lockouts</strong>
+      <span class="check">✓</span> Keys locked inside your vehicle
+    </div>
 
-      <p>
-        Accidentally locked your keys inside your vehicle? You're not alone.
-        Light It Up Roadside provides mobile car lockout assistance for
-        drivers throughout El Paso, Texas.
-      </p>
+    <div class="feature">
+      <strong>📍 Local Service</strong>
+      <span class="check">✓</span> Mobile service throughout El Paso
+    </div>
 
-      <p>
-        Whether you're at home, at work, in a parking lot, or stranded
-        somewhere in town, our mobile roadside service comes to you.
-      </p>
+    <div class="feature">
+      <strong>⚡ Fast Response</strong>
+      <span class="check">✓</span> Local roadside assistance
+    </div>
 
-    </section>
+    <div class="feature">
+      <strong>📱 Call or Text</strong>
+      <span class="check">✓</span> Easy contact when you need help
+    </div>
 
-    <section class="card">
+  </div>
+</section>
 
-      <h2>Lockout Services</h2>
+<section class="section">
+  <h2>Why Choose Light It Up Roadside?</h2>
 
-      <div class="service-grid">
+  <p>
+    We provide mobile roadside assistance directly where you need it.
+    No need to drive your vehicle anywhere — call or text and we'll
+    come to you.
+  </p>
 
-        <div class="service">
-          <div class="service-icon">🔑</div>
-          <strong>Keys Locked Inside</strong>
-          <span>Vehicle lockout assistance</span>
-        </div>
+  <p>
+    Serving drivers throughout El Paso, Texas with car lockouts,
+    jump starts, tire changes, battery service and other roadside needs.
+  </p>
+</section>
 
-        <div class="service">
-          <div class="service-icon">🚗</div>
-          <strong>Car Lockouts</strong>
-          <span>Mobile roadside service</span>
-        </div>
+<section class="cta">
+  <h2>Locked Out Right Now?</h2>
 
-        <div class="service">
-          <div class="service-icon">📍</div>
-          <strong>Local El Paso Service</strong>
-          <span>We come to your location</span>
-        </div>
+  <p>
+    Call or text Light It Up Roadside for mobile car lockout service
+    in El Paso.
+  </p>
 
-        <div class="service">
-          <div class="service-icon">📱</div>
-          <strong>Call or Text</strong>
-          <span>Contact us for assistance</span>
-        </div>
-
-      </div>
-
-    </section>
-
-    <section class="card">
-
-      <h2>How It Works</h2>
-
-      <ol class="steps">
-
-        <li>
-          <strong>Call or text us.</strong><br>
-          Tell us you're locked out and where you are in El Paso.
-        </li>
-
-        <li>
-          <strong>We come to you.</strong><br>
-          Our mobile roadside service comes to your vehicle.
-        </li>
-
-        <li>
-          <strong>Get back on the road.</strong><br>
-          Once your vehicle is accessible, you're ready to go.
-        </li>
-
-      </ol>
-
-    </section>
-
-    <section class="card">
-
-      <h2>Why Call Light It Up Roadside?</h2>
-
-      <p>
-        We are a local El Paso roadside assistance service focused on
-        convenient mobile help when you need it.
-      </p>
-
-      <p>
-        Our services include car lockouts, jump starts, battery service,
-        tire changes, and emergency fuel delivery.
-      </p>
-
-    </section>
-
-    <section class="final-cta">
-
-      <h2>Locked Out? Let's Get You Back In.</h2>
-
-      <p>
-        Call or text Light It Up Roadside Assistance for local car lockout
-        help in El Paso, TX.
-      </p>
-
-      <a class="button" href="tel:+19152472969">
-        Call (915) 247-2969
-      </a>
-
-    </section>
-
-  </main>
-
-  <footer>
-    Light It Up Roadside Assistance • El Paso, Texas
-  </footer>
-
-</div>
-
-<div class="sticky-call">
-  <a href="tel:+19152472969">
-    📞 Call Now — (915) 247-2969
+  <a class="button" href="tel:+19152472969">
+    📞 (915) 247-2969
   </a>
+</section>
+
 </div>
+
+</main>
+
+<footer>
+  © 2026 Light It Up Roadside Assistance<br>
+  El Paso, Texas
+</footer>
 
 </body>
 </html>
