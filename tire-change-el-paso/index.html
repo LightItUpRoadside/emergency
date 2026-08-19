@@ -1,301 +1,469 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Tire Change Service in El Paso, TX | Light It Up Roadside</title>
-  <meta name="description" content="Need a tire change in El Paso, TX? Light It Up Roadside provides mobile tire change assistance throughout El Paso. Call now for roadside service.">
+<title>Tire Change Service in El Paso, TX | Light It Up Roadside</title>
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+<meta name="description" content="Flat tire in El Paso, TX? Light It Up Roadside provides 24/7 mobile tire change and spare tire installation throughout El Paso. Tire changes starting at $60. Call or text now.">
 
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #111;
-      color: white;
-    }
+<link rel="canonical" href="https://lightituproadside.github.io/emergency/tire-change-el-paso/">
 
-    .topbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 14px 6%;
-      background: #000;
-      border-bottom: 2px solid #ffd000;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    .logo {
-      height: 48px;
-      width: auto;
-    }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #08090c;
+  color: #fff;
+  line-height: 1.6;
+}
 
-    .call-button {
-      background: #ffd000;
-      color: #000;
-      text-decoration: none;
-      font-weight: 900;
-      padding: 12px 20px;
-      border-radius: 8px;
-      font-size: 16px;
-    }
+.container {
+  width: 92%;
+  max-width: 900px;
+  margin: auto;
+}
 
-    .call-button:hover {
-      background: #fff;
-    }
+/* HEADER */
 
-    .hero {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 45px 20px 35px;
-      text-align: center;
-    }
+header {
+  padding: 15px 0;
+  border-bottom: 1px solid #292929;
+  background: #08090c;
+}
 
-    .hero h1 {
-      color: #ffd000;
-      font-size: clamp(34px, 6vw, 58px);
-      margin: 20px 0 15px;
-      font-weight: 900;
-    }
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
 
-    .hero p {
-      max-width: 800px;
-      margin: 0 auto 25px;
-      font-size: 19px;
-      line-height: 1.6;
-      color: #eee;
-    }
+.back {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-    .hero-image {
-      width: 100%;
-      max-width: 850px;
-      height: auto;
-      max-height: 560px;
-      object-fit: cover;
-      border-radius: 18px;
-      border: 3px solid #ffd000;
-      display: block;
-      margin: 30px auto;
-    }
+.top-call {
+  display: inline-block;
+  background: #ffd21c;
+  color: #111;
+  padding: 11px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 800;
+  white-space: nowrap;
+}
 
-    .price {
-      display: inline-block;
-      background: #ffd000;
-      color: #000;
-      font-size: 22px;
-      font-weight: 900;
-      padding: 12px 24px;
-      border-radius: 8px;
-      margin: 10px 0 20px;
-    }
+/* HERO */
 
-    .section {
-      max-width: 950px;
-      margin: 25px auto;
-      padding: 30px 25px;
-      background: #202020;
-      border: 2px solid #ffd000;
-      border-radius: 16px;
-    }
+.hero {
+  text-align: center;
+  padding: 28px 0 40px;
+}
 
-    .section h2 {
-      color: #ffd000;
-      text-align: center;
-      font-size: 30px;
-      margin-top: 0;
-    }
+.logo {
+  display: block;
+  width: 135px;
+  max-width: 45%;
+  margin: 8px auto 20px;
+}
 
-    .section p {
-      font-size: 17px;
-      line-height: 1.7;
-      color: #eee;
-    }
+.badge {
+  display: inline-block;
+  background: #ffd21c;
+  color: #111;
+  padding: 7px 15px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
 
-    .section ul {
-      line-height: 2;
-      font-size: 17px;
-      padding-left: 25px;
-    }
+h1 {
+  font-size: clamp(36px, 8vw, 62px);
+  line-height: 1.05;
+  margin: 0 auto 18px;
+  color: #ffd21c;
+}
 
-    .cta {
-      text-align: center;
-      padding: 45px 20px 60px;
-    }
+.hero-text {
+  max-width: 720px;
+  margin: auto;
+  font-size: 19px;
+  color: #ddd;
+}
 
-    .cta h2 {
-      color: #ffd000;
-      font-size: 34px;
-      margin-bottom: 15px;
-    }
+.hero-photo {
+  display: block;
+  width: 100%;
+  max-width: 780px;
+  height: 430px;
+  object-fit: cover;
+  object-position: center;
+  margin: 30px auto 10px;
+  border-radius: 22px;
+  border: 2px solid #292929;
+  box-shadow: 0 15px 45px rgba(0,0,0,.45);
+}
 
-    .cta p {
-      font-size: 18px;
-      margin-bottom: 25px;
-    }
+.photo-caption {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 18px;
+}
 
-    .cta-button {
-      display: inline-block;
-      background: #ffd000;
-      color: #000;
-      text-decoration: none;
-      font-size: 22px;
-      font-weight: 900;
-      padding: 16px 32px;
-      border-radius: 10px;
-    }
+.price {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 18px 0;
+}
 
-    .cta-button:hover {
-      background: #fff;
-    }
+.price span {
+  color: #ffd21c;
+}
 
-    .back {
-      display: block;
-      text-align: center;
-      color: #ffd000;
-      text-decoration: none;
-      font-weight: bold;
-      margin: 25px 0;
-    }
+/* BUTTONS */
 
-    footer {
-      text-align: center;
-      padding: 25px;
-      background: #000;
-      border-top: 2px solid #ffd000;
-      color: #aaa;
-    }
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
 
-    @media (max-width: 600px) {
-      .topbar {
-        padding: 10px 15px;
-      }
+.button {
+  display: inline-block;
+  padding: 16px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
 
-      .logo {
-        height: 40px;
-      }
+.call {
+  background: #ffd21c;
+  color: #111;
+}
 
-      .call-button {
-        padding: 10px 14px;
-        font-size: 14px;
-      }
+.text {
+  background: #fff;
+  color: #111;
+}
 
-      .hero {
-        padding-top: 30px;
-      }
+/* CONTENT CARDS */
 
-      .hero p {
-        font-size: 17px;
-      }
+.section {
+  background: #181a22;
+  border: 1px solid #2a2d37;
+  border-radius: 22px;
+  padding: 30px 25px;
+  margin: 22px 0;
+}
 
-      .section {
-        margin: 20px 12px;
-        padding: 25px 20px;
-      }
+.section h2 {
+  color: #ffd21c;
+  font-size: 28px;
+  margin-top: 0;
+}
 
-      .hero-image {
-        border-radius: 12px;
-      }
-    }
-  </style>
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.feature {
+  background: #101116;
+  border-radius: 15px;
+  padding: 18px;
+}
+
+.feature strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.check {
+  color: #ffd21c;
+  font-weight: bold;
+}
+
+/* TRUST */
+
+.trust {
+  text-align: center;
+}
+
+.trust-logo {
+  width: 90px;
+  margin: 5px auto 15px;
+}
+
+/* FINAL CTA */
+
+.cta {
+  text-align: center;
+  background: linear-gradient(135deg, #ffd21c, #ffb900);
+  color: #111;
+  border-radius: 24px;
+  padding: 38px 25px;
+  margin: 30px 0;
+}
+
+.cta h2 {
+  font-size: 34px;
+  margin: 0 0 10px;
+}
+
+.cta p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cta .button {
+  background: #111;
+  color: #fff;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  color: #888;
+  padding: 30px 10px 45px;
+  font-size: 14px;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .header-inner {
+    gap: 8px;
+  }
+
+  .back {
+    font-size: 13px;
+  }
+
+  .top-call {
+    font-size: 0;
+    padding: 10px 13px;
+  }
+
+  .top-call::after {
+    content: "📞 Call Now";
+    font-size: 14px;
+  }
+
+  .hero {
+    padding-top: 25px;
+  }
+
+  .hero-photo {
+    height: 330px;
+    border-radius: 16px;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section {
+    padding: 25px 20px;
+  }
+}
+</style>
 </head>
 
 <body>
 
-  <header class="topbar">
-    <a href="../">
-      <img src="../logo.png" alt="Light It Up Roadside" class="logo">
+<header>
+  <div class="container header-inner">
+
+    <a class="back" href="../">
+      ← Back to Light It Up Roadside
     </a>
 
-    <a href="tel:19152472969" class="call-button">
+    <a class="top-call" href="tel:+19152472969">
+      📞 Call (915) 247-2969
+    </a>
+
+  </div>
+</header>
+
+<main>
+
+<section class="hero container">
+
+  <img
+    class="logo"
+    src="../logo.png"
+    alt="Light It Up Roadside Assistance logo">
+
+  <div class="badge">
+    24/7 MOBILE SERVICE • EL PASO, TX
+  </div>
+
+  <h1>
+    Tire Change Service in El Paso, TX
+  </h1>
+
+  <p class="hero-text">
+    Got a flat tire or need your spare installed?
+    Light It Up Roadside provides mobile tire change assistance
+    throughout El Paso, Texas.
+  </p>
+
+  <img
+    class="hero-photo"
+    src="tire-change-hero.jpg"
+    alt="Light It Up Roadside performing a mobile tire change in El Paso">
+
+  <div class="photo-caption">
+    Real Light It Up Roadside tire change service in El Paso.
+  </div>
+
+  <div class="price">
+    Tire Changes <span>starting at $60</span>
+  </div>
+
+  <div class="buttons">
+
+    <a class="button call" href="tel:+19152472969">
       📞 Call Now
     </a>
-  </header>
 
-  <main>
+    <a class="button text" href="sms:+19152472969">
+      💬 Text Us
+    </a>
 
-    <section class="hero">
+  </div>
 
-      <h1>Tire Change Service in El Paso, TX</h1>
+</section>
 
-      <p>
-        Got a flat tire or need a spare installed?
-        Light It Up Roadside provides mobile tire change assistance
-        throughout El Paso, Texas.
-      </p>
+<div class="container">
 
-      <div class="price">
-        Tire Changes Starting at $60
-      </div>
+<section class="section">
 
-      <img
-        src="tire-change-hero.jpg"
-        alt="Light It Up Roadside providing mobile tire change service in El Paso"
-        class="hero-image"
-      >
+  <h2>🛞 Flat Tire? We Come To You.</h2>
 
-    </section>
+  <p>
+    A flat tire can leave you stranded at home, at work,
+    in a parking lot, or on the side of the road.
+    Light It Up Roadside provides mobile tire change service
+    throughout El Paso.
+  </p>
 
-    <section class="section">
+  <p>
+    If you have a usable spare tire, call or text us and we'll come
+    to your location to help get you back on the road.
+  </p>
 
-      <h2>Need a Tire Changed?</h2>
+</section>
 
-      <p>
-        A flat tire can happen anywhere and at any time. Instead of
-        trying to change it yourself on the side of the road, call
-        Light It Up Roadside for mobile roadside assistance in El Paso.
-      </p>
+<section class="section">
 
-      <p>
-        We'll come to your location and help remove the damaged tire
-        and install your spare so you can get back on the road.
-      </p>
+  <h2>Our Tire Change Service</h2>
 
-    </section>
+  <div class="features">
 
-    <section class="section">
+    <div class="feature">
+      <strong>🛞 Flat Tire Changes</strong>
+      <span class="check">✓</span>
+      Mobile roadside tire assistance
+    </div>
 
-      <h2>Our Tire Change Service</h2>
+    <div class="feature">
+      <strong>🔧 Spare Installation</strong>
+      <span class="check">✓</span>
+      Installation of your usable spare tire
+    </div>
 
-      <ul>
-        <li>Mobile tire change assistance</li>
-        <li>Flat tire assistance</li>
-        <li>Spare tire installation</li>
-        <li>Roadside tire service in El Paso</li>
-        <li>Fast local roadside assistance</li>
-        <li>Call for service and availability</li>
-      </ul>
+    <div class="feature">
+      <strong>📍 El Paso Service</strong>
+      <span class="check">✓</span>
+      We come directly to your location
+    </div>
 
-    </section>
+    <div class="feature">
+      <strong>📱 Call or Text</strong>
+      <span class="check">✓</span>
+      Easy contact for roadside help
+    </div>
 
-    <section class="cta">
+  </div>
 
-      <h2>Need a Tire Changed?</h2>
+</section>
 
-      <p>
-        Call Light It Up Roadside for mobile tire assistance in El Paso.
-      </p>
+<section class="section">
 
-      <a href="tel:19152472969" class="cta-button">
-        📞 Call (915) 247-2969
-      </a>
+  <h2>Need Help With a Flat Tire?</h2>
 
-    </section>
+  <p>
+    Tire problems don't always happen somewhere convenient.
+    Our mobile roadside service comes to you so you don't have to
+    struggle with changing a tire by yourself.
+  </p>
 
-  </main>
+</section>
 
-  <a href="../" class="back">
-    ← Back to Light It Up Roadside
+<section class="section trust">
+
+  <img
+    class="trust-logo"
+    src="../logo.png"
+    alt="Light It Up Roadside Assistance">
+
+  <h2>Local Mobile Roadside Assistance</h2>
+
+  <p>
+    Light It Up Roadside provides mobile roadside assistance
+    directly where you need it in El Paso, Texas.
+  </p>
+
+  <p>
+    In addition to tire changes, we provide car lockouts,
+    jump starts, battery service, and emergency fuel delivery.
+  </p>
+
+</section>
+
+<section class="cta">
+
+  <h2>Flat Tire Right Now?</h2>
+
+  <p>
+    Call or text Light It Up Roadside and we'll come to you.
+  </p>
+
+  <a class="button" href="tel:+19152472969">
+    📞 (915) 247-2969
   </a>
 
-  <footer>
-    © 2026 Light It Up Roadside · El Paso, Texas
-  </footer>
+</section>
+
+</div>
+
+</main>
+
+<footer>
+  © 2026 Light It Up Roadside Assistance<br>
+  El Paso, Texas
+</footer>
 
 </body>
 </html>
