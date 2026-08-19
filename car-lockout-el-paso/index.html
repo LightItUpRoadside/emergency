@@ -6,7 +6,7 @@
 
 <title>Car Lockout Service in El Paso, TX | Light It Up Roadside</title>
 
-<meta name="description" content="Locked your keys inside your vehicle? Light It Up Roadside provides fast mobile car lockout service throughout El Paso, TX. Call or text 24/7.">
+<meta name="description" content="Locked your keys inside your vehicle? Light It Up Roadside provides 24/7 mobile car lockout service throughout El Paso, TX. Lockouts starting at $65. Call or text now.">
 
 <style>
 * {
@@ -16,8 +16,8 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #0b0b0f;
-  color: #ffffff;
+  background: #08090c;
+  color: #fff;
   line-height: 1.6;
 }
 
@@ -28,19 +28,26 @@ body {
 }
 
 header {
-  padding: 18px 0;
+  padding: 16px 0;
   border-bottom: 1px solid #292929;
 }
 
 .back {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
 
+.logo {
+  display: block;
+  width: 135px;
+  max-width: 45%;
+  margin: 25px auto 10px;
+}
+
 .hero {
   text-align: center;
-  padding: 55px 10px 40px;
+  padding: 25px 0 35px;
 }
 
 .badge {
@@ -49,29 +56,46 @@ header {
   color: #111;
   padding: 7px 15px;
   border-radius: 30px;
+  font-size: 13px;
   font-weight: bold;
-  font-size: 14px;
   margin-bottom: 18px;
 }
 
 h1 {
-  font-size: clamp(36px, 8vw, 64px);
+  font-size: clamp(36px, 8vw, 62px);
   line-height: 1.05;
-  margin: 0 auto 20px;
+  margin: 0 auto 18px;
   color: #ffd21c;
 }
 
-.hero p {
+.hero-text {
+  max-width: 720px;
+  margin: auto;
   font-size: 19px;
-  max-width: 700px;
-  margin: 0 auto 25px;
-  color: #dddddd;
+  color: #ddd;
+}
+
+.hero-photo {
+  display: block;
+  width: 100%;
+  max-width: 780px;
+  height: auto;
+  margin: 30px auto 22px;
+  border-radius: 22px;
+  border: 2px solid #292929;
+  box-shadow: 0 15px 45px rgba(0,0,0,.45);
+}
+
+.photo-caption {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 18px;
 }
 
 .price {
   font-size: 25px;
   font-weight: bold;
-  margin: 20px 0;
+  margin: 18px 0;
 }
 
 .price span {
@@ -83,7 +107,6 @@ h1 {
   justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
-  margin-top: 25px;
 }
 
 .button {
@@ -101,13 +124,13 @@ h1 {
 }
 
 .text {
-  background: #ffffff;
+  background: #fff;
   color: #111;
 }
 
 .section {
   background: #181a22;
-  border: 1px solid #292c36;
+  border: 1px solid #2a2d37;
   border-radius: 22px;
   padding: 30px 25px;
   margin: 22px 0;
@@ -142,6 +165,15 @@ h1 {
   font-weight: bold;
 }
 
+.trust {
+  text-align: center;
+}
+
+.trust-logo {
+  width: 90px;
+  margin: 5px auto 15px;
+}
+
 .cta {
   text-align: center;
   background: linear-gradient(135deg, #ffd21c, #ffb900);
@@ -164,12 +196,11 @@ h1 {
 .cta .button {
   background: #111;
   color: #fff;
-  margin-top: 10px;
 }
 
 footer {
   text-align: center;
-  color: #999;
+  color: #888;
   padding: 30px 10px 45px;
   font-size: 14px;
 }
@@ -179,17 +210,13 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .hero {
-    padding-top: 40px;
-  }
-
-  .section {
-    padding: 25px 20px;
-  }
-
   .button {
     width: 100%;
     text-align: center;
+  }
+
+  .hero-photo {
+    border-radius: 16px;
   }
 }
 </style>
@@ -205,16 +232,31 @@ footer {
 
 <main>
 
-<section class="hero">
+<section class="hero container">
+
+  <img
+    class="logo"
+    src="light-it-up-logo.png"
+    alt="Light It Up Roadside Assistance logo">
+
   <div class="badge">24/7 MOBILE SERVICE • EL PASO, TX</div>
 
   <h1>Car Lockout Service in El Paso, TX</h1>
 
-  <p>
+  <p class="hero-text">
     Locked your keys inside your vehicle?
     Light It Up Roadside provides mobile car lockout assistance
     throughout El Paso, Texas.
   </p>
+
+  <img
+    class="hero-photo"
+    src="lockout-hero.jpg"
+    alt="Light It Up Roadside technician performing a vehicle lockout in El Paso">
+
+  <div class="photo-caption">
+    Real Light It Up Roadside lockout service in El Paso.
+  </div>
 
   <div class="price">
     Lockouts <span>starting at $65</span>
@@ -229,22 +271,23 @@ footer {
       💬 Text Us
     </a>
   </div>
+
 </section>
 
 <div class="container">
 
 <section class="section">
-  <h2>Locked Your Keys in Your Car?</h2>
+  <h2>🔑 Locked Out? We're Coming To You.</h2>
 
   <p>
     Getting locked out of your vehicle can happen at any time.
     Light It Up Roadside provides local mobile lockout service
-    in El Paso to help drivers get back into their vehicles.
+    throughout El Paso to help drivers get back into their vehicles.
   </p>
 
   <p>
-    Whether your keys are locked inside the vehicle or you've
-    accidentally locked yourself out, call or text for roadside assistance.
+    If your keys are locked inside your car, call or text us for
+    roadside assistance.
   </p>
 </section>
 
@@ -255,53 +298,64 @@ footer {
 
     <div class="feature">
       <strong>🔑 Car Lockouts</strong>
-      <span class="check">✓</span> Keys locked inside your vehicle
+      <span class="check">✓</span>
+      Keys locked inside your vehicle
     </div>
 
     <div class="feature">
-      <strong>📍 Local Service</strong>
-      <span class="check">✓</span> Mobile service throughout El Paso
+      <strong>📍 El Paso Service</strong>
+      <span class="check">✓</span>
+      Mobile service throughout El Paso
     </div>
 
     <div class="feature">
-      <strong>⚡ Fast Response</strong>
-      <span class="check">✓</span> Local roadside assistance
+      <strong>⚡ 24/7 Assistance</strong>
+      <span class="check">✓</span>
+      Help when you need it
     </div>
 
     <div class="feature">
       <strong>📱 Call or Text</strong>
-      <span class="check">✓</span> Easy contact when you need help
+      <span class="check">✓</span>
+      Easy contact for roadside help
     </div>
 
   </div>
 </section>
 
-<section class="section">
-  <h2>Why Choose Light It Up Roadside?</h2>
+<section class="section trust">
+
+  <img
+    class="trust-logo"
+    src="light-it-up-logo.png"
+    alt="Light It Up Roadside">
+
+  <h2>Local Mobile Roadside Assistance</h2>
 
   <p>
-    We provide mobile roadside assistance directly where you need it.
-    No need to drive your vehicle anywhere — call or text and we'll
-    come to you.
+    Light It Up Roadside provides mobile roadside assistance
+    directly where you need it in El Paso, Texas.
   </p>
 
   <p>
-    Serving drivers throughout El Paso, Texas with car lockouts,
-    jump starts, tire changes, battery service and other roadside needs.
+    In addition to car lockouts, we provide jump starts,
+    tire changes, battery service and other roadside assistance.
   </p>
+
 </section>
 
 <section class="cta">
+
   <h2>Locked Out Right Now?</h2>
 
   <p>
-    Call or text Light It Up Roadside for mobile car lockout service
-    in El Paso.
+    Don't wait. Call or text Light It Up Roadside.
   </p>
 
   <a class="button" href="tel:+19152472969">
     📞 (915) 247-2969
   </a>
+
 </section>
 
 </div>
