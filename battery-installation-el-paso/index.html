@@ -29,8 +29,6 @@ body {
   margin: auto;
 }
 
-/* HEADER */
-
 header {
   padding: 15px 0;
   border-bottom: 1px solid #292929;
@@ -60,8 +58,6 @@ header {
   font-weight: 800;
   white-space: nowrap;
 }
-
-/* HERO */
 
 .hero {
   text-align: center;
@@ -129,8 +125,6 @@ h1 {
   color: #ffd21c;
 }
 
-/* BUTTONS */
-
 .buttons {
   display: flex;
   justify-content: center;
@@ -156,8 +150,6 @@ h1 {
   background: #fff;
   color: #111;
 }
-
-/* CONTENT CARDS */
 
 .section {
   background: #181a22;
@@ -196,7 +188,28 @@ h1 {
   font-weight: bold;
 }
 
-/* TRUST */
+.service-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.service-link {
+  display: block;
+  background: #101116;
+  border: 1px solid #2a2d37;
+  border-radius: 15px;
+  padding: 17px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.2s ease;
+}
+
+.service-link:hover {
+  border-color: #ffd21c;
+  color: #ffd21c;
+}
 
 .trust {
   text-align: center;
@@ -206,8 +219,6 @@ h1 {
   width: 90px;
   margin: 5px auto 15px;
 }
-
-/* FINAL CTA */
 
 .cta {
   text-align: center;
@@ -233,16 +244,12 @@ h1 {
   color: #fff;
 }
 
-/* FOOTER */
-
 footer {
   text-align: center;
   color: #888;
   padding: 30px 10px 45px;
   font-size: 14px;
 }
-
-/* MOBILE */
 
 @media (max-width: 600px) {
 
@@ -273,7 +280,8 @@ footer {
     border-radius: 16px;
   }
 
-  .features {
+  .features,
+  .service-links {
     grid-template-columns: 1fr;
   }
 
@@ -331,10 +339,10 @@ footer {
   <img
     class="hero-photo"
     src="../install.jpeg"
-    alt="Light It Up Roadside mobile battery service in El Paso">
+    alt="Light It Up Roadside mobile battery installation service in El Paso">
 
   <div class="photo-caption">
-    Mobile battery service from Light It Up Roadside in El Paso.
+    Real Light It Up Roadside mobile battery service in El Paso.
   </div>
 
   <div class="price">
@@ -442,6 +450,42 @@ footer {
     In addition to battery installation, we provide battery testing,
     jump starts, car lockouts, tire changes, and emergency fuel delivery.
   </p>
+
+</section>
+
+<section class="section">
+
+  <h2>More Roadside Services in El Paso</h2>
+
+  <p>
+    Need something other than battery installation?
+    Light It Up Roadside provides additional mobile roadside
+    services throughout El Paso, Texas.
+  </p>
+
+  <div class="service-links">
+
+    <a class="service-link" href="../car-lockout-el-paso/">
+      🔑 Car Lockout Service
+    </a>
+
+    <a class="service-link" href="../jump-start-el-paso/">
+      ⚡ Jump Start Service
+    </a>
+
+    <a class="service-link" href="../tire-change-el-paso/">
+      🛞 Tire Change Service
+    </a>
+
+    <a class="service-link" href="../fuel-delivery-el-paso/">
+      ⛽ Fuel Delivery
+    </a>
+
+    <a class="service-link" href="../battery-test-el-paso/">
+      🔋 Battery Testing
+    </a>
+
+  </div>
 
 </section>
 
