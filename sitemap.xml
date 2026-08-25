@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://lightituproadside.github.io/emergency/</loc>
+    <loc>https://lightituproadside.com/</loc>
   </url>
+
   <url>
-    <loc>https://lightituproadside.github.io/emergency/car-lockout-el-paso/</loc>
+    <loc>https://lightituproadside.com/car-lockout-el-paso/</loc>
   </url>
+
   <url>
-    <loc>https://lightituproadside.github.io/emergency/jump-start-el-paso/</loc>
+    <loc>https://lightituproadside.com/jump-start-el-paso/</loc>
   </url>
+
   <url>
-    <loc>https://lightituproadside.github.io/emergency/tire-change-el-paso/</loc>
+    <loc>https://lightituproadside.com/tire-change-el-paso/</loc>
   </url>
+
   <url>
-    <loc>https://lightituproadside.github.io/emergency/fuel-delivery-el-paso/</loc>
+    <loc>https://lightituproadside.com/fuel-delivery-el-paso/</loc>
   </url>
+
   <url>
-    <loc>https://lightituproadside.github.io/emergency/battery-test-el-paso/</loc>
+    <loc>https://lightituproadside.com/battery-test-el-paso/</loc>
   </url>
+
   <url>
-    <loc>https://lightituproadside.github.io/emergency/battery-installation-el-paso/</loc>
+    <loc>https://lightituproadside.com/battery-installation-el-paso/</loc>
   </url>
+
 </urlset>
