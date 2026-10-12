@@ -294,6 +294,16 @@ footer {
     padding: 25px 20px;
   }
 }
+
+/* Compact, keyboard-accessible customer questions. */
+.roadside-faq { margin: 24px 0; padding: 22px; background: #171a22; border: 1px solid #2a2d37; border-radius: 22px; }
+.roadside-faq h2 { margin: 0 0 16px; color: #ffd21c; font-size: 28px; line-height: 1.25; }
+.roadside-faq details { border-top: 1px solid #343844; }
+.roadside-faq summary { padding: 16px 0; min-height: 48px; cursor: pointer; font-weight: 700; line-height: 1.5; }
+.roadside-faq summary:focus-visible { outline: 2px solid #ffd21c; outline-offset: 3px; border-radius: 4px; }
+.roadside-faq p { margin: 0 0 18px; color: #ddd; line-height: 1.7; }
+.roadside-faq a { color: #ffd21c; text-decoration: underline; }
+@media (max-width: 600px) { .roadside-faq { padding: 20px 16px; } .roadside-faq h2 { font-size: 25px; } }
 </style>
 </head>
 
@@ -415,6 +425,23 @@ footer {
 
   </div>
 
+</section>
+
+
+<section class="roadside-faq" aria-labelledby="faq-heading">
+  <h2 id="faq-heading">Tire Change Questions</h2>
+  <details>
+    <summary>Do I need my own spare tire?</summary>
+    <p>Yes. You must have a usable spare tire available for us to install. Let us know when you call if you do not have one.</p>
+  </details>
+  <details>
+    <summary>How much does a mobile tire change cost in El Paso?</summary>
+    <p>Tire change service starts at $60. Pricing varies with the distance to your location. We’ll agree on your price before heading out.</p>
+  </details>
+  <details>
+    <summary>What should I provide when requesting a tire change?</summary>
+    <p>Share your exact location or a map pin, your vehicle’s year, make and model, and confirm that you have a usable spare tire for us to install.</p>
+  </details>
 </section>
 
 <section class="section trust">

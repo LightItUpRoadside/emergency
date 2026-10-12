@@ -594,7 +594,17 @@
         font-size: 38px;
       }
     }
-  </style>
+  
+/* Compact, keyboard-accessible customer questions. */
+.roadside-faq { margin: 24px 0; padding: 22px; background: #171a22; border: 1px solid #2a2d37; border-radius: 22px; }
+.roadside-faq h2 { margin: 0 0 16px; color: #ffd21c; font-size: 28px; line-height: 1.25; }
+.roadside-faq details { border-top: 1px solid #343844; }
+.roadside-faq summary { padding: 16px 0; min-height: 48px; cursor: pointer; font-weight: 700; line-height: 1.5; }
+.roadside-faq summary:focus-visible { outline: 2px solid #ffd21c; outline-offset: 3px; border-radius: 4px; }
+.roadside-faq p { margin: 0 0 18px; color: #ddd; line-height: 1.7; }
+.roadside-faq a { color: #ffd21c; text-decoration: underline; }
+@media (max-width: 600px) { .roadside-faq { padding: 20px 16px; } .roadside-faq h2 { font-size: 25px; } }
+</style>
 </head>
 
 <body>
@@ -728,6 +738,27 @@
 
       </div>
     </section>
+
+
+<section class="roadside-faq" aria-labelledby="faq-heading">
+  <h2 id="faq-heading">Common Roadside Assistance Questions</h2>
+  <details>
+    <summary>How do I request roadside assistance in El Paso?</summary>
+    <p>Call or text Light It Up Roadside Assistance at <a href="tel:+19152472969">915-247-2969</a>. Share your exact location or a map pin, your vehicle’s year, make and model, and the help you need. We’ll agree on the service price before heading out to you.</p>
+  </details>
+  <details>
+    <summary>How much does roadside assistance cost?</summary>
+    <p>The price depends on the service you need and the distance to your location. Our website lists starting prices, and we’ll agree on your price before heading out to you.</p>
+  </details>
+  <details>
+    <summary>Do I need a spare tire for a tire change?</summary>
+    <p>Yes. You must have a usable spare tire available for us to install. Let us know when you call if you do not have one.</p>
+  </details>
+  <details>
+    <summary>What information should I provide when I call or text?</summary>
+    <p>Share your exact location or a map pin, your vehicle’s year, make and model, and a short description of the problem. For tire changes, confirm that you have a usable spare tire.</p>
+  </details>
+</section>
 
     <section class="section">
       <div class="split">

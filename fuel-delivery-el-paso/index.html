@@ -295,6 +295,16 @@ footer {
     padding: 25px 20px;
   }
 }
+
+/* Compact, keyboard-accessible customer questions. */
+.roadside-faq { margin: 24px 0; padding: 22px; background: #171a22; border: 1px solid #2a2d37; border-radius: 22px; }
+.roadside-faq h2 { margin: 0 0 16px; color: #ffd21c; font-size: 28px; line-height: 1.25; }
+.roadside-faq details { border-top: 1px solid #343844; }
+.roadside-faq summary { padding: 16px 0; min-height: 48px; cursor: pointer; font-weight: 700; line-height: 1.5; }
+.roadside-faq summary:focus-visible { outline: 2px solid #ffd21c; outline-offset: 3px; border-radius: 4px; }
+.roadside-faq p { margin: 0 0 18px; color: #ddd; line-height: 1.7; }
+.roadside-faq a { color: #ffd21c; text-decoration: underline; }
+@media (max-width: 600px) { .roadside-faq { padding: 20px 16px; } .roadside-faq h2 { font-size: 25px; } }
 </style>
 </head>
 
@@ -416,6 +426,23 @@ footer {
 
   </div>
 
+</section>
+
+
+<section class="roadside-faq" aria-labelledby="faq-heading">
+  <h2 id="faq-heading">Fuel Delivery Questions</h2>
+  <details>
+    <summary>How much does emergency fuel delivery cost in El Paso?</summary>
+    <p>Fuel delivery service starts at $45. Pricing varies with the distance to your location. Contact us to confirm what your quote includes; we’ll agree on the price before heading out.</p>
+  </details>
+  <details>
+    <summary>Can you bring fuel to my vehicle?</summary>
+    <p>Yes. Light It Up Roadside provides mobile emergency fuel delivery throughout El Paso. Call or text with your exact location and vehicle details.</p>
+  </details>
+  <details>
+    <summary>What should I tell you when requesting fuel delivery?</summary>
+    <p>Share your exact location or a map pin, your vehicle’s year, make and model, and the fuel type your vehicle requires so we can confirm service details before heading out.</p>
+  </details>
 </section>
 
 <section class="section trust">

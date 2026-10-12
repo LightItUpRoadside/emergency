@@ -295,6 +295,16 @@ footer {
     padding: 25px 20px;
   }
 }
+
+/* Compact, keyboard-accessible customer questions. */
+.roadside-faq { margin: 24px 0; padding: 22px; background: #171a22; border: 1px solid #2a2d37; border-radius: 22px; }
+.roadside-faq h2 { margin: 0 0 16px; color: #ffd21c; font-size: 28px; line-height: 1.25; }
+.roadside-faq details { border-top: 1px solid #343844; }
+.roadside-faq summary { padding: 16px 0; min-height: 48px; cursor: pointer; font-weight: 700; line-height: 1.5; }
+.roadside-faq summary:focus-visible { outline: 2px solid #ffd21c; outline-offset: 3px; border-radius: 4px; }
+.roadside-faq p { margin: 0 0 18px; color: #ddd; line-height: 1.7; }
+.roadside-faq a { color: #ffd21c; text-decoration: underline; }
+@media (max-width: 600px) { .roadside-faq { padding: 20px 16px; } .roadside-faq h2 { font-size: 25px; } }
 </style>
 </head>
 
@@ -428,6 +438,23 @@ footer {
     all you need to get back on the road.
   </p>
 
+</section>
+
+
+<section class="roadside-faq" aria-labelledby="faq-heading">
+  <h2 id="faq-heading">Battery Installation Questions</h2>
+  <details>
+    <summary>How much does mobile battery installation cost in El Paso?</summary>
+    <p>Battery installation starts at $80. Pricing varies with the distance to your location. Contact us to confirm battery options and what your quote includes; we’ll agree on the price before heading out.</p>
+  </details>
+  <details>
+    <summary>Can I provide my own replacement battery?</summary>
+    <p>Yes. You can provide a replacement battery, or contact us to discuss options for getting the correct battery for your vehicle. Share your vehicle’s year, make and model when you call or text.</p>
+  </details>
+  <details>
+    <summary>Can you test my battery before I decide about replacement?</summary>
+    <p>We also offer mobile battery testing. Contact us to discuss testing if you are unsure whether your battery needs replacement.</p>
+  </details>
 </section>
 
 <section class="section trust">

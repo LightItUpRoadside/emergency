@@ -296,6 +296,16 @@ footer {
     padding: 25px 20px;
   }
 }
+
+/* Compact, keyboard-accessible customer questions. */
+.roadside-faq { margin: 24px 0; padding: 22px; background: #171a22; border: 1px solid #2a2d37; border-radius: 22px; }
+.roadside-faq h2 { margin: 0 0 16px; color: #ffd21c; font-size: 28px; line-height: 1.25; }
+.roadside-faq details { border-top: 1px solid #343844; }
+.roadside-faq summary { padding: 16px 0; min-height: 48px; cursor: pointer; font-weight: 700; line-height: 1.5; }
+.roadside-faq summary:focus-visible { outline: 2px solid #ffd21c; outline-offset: 3px; border-radius: 4px; }
+.roadside-faq p { margin: 0 0 18px; color: #ddd; line-height: 1.7; }
+.roadside-faq a { color: #ffd21c; text-decoration: underline; }
+@media (max-width: 600px) { .roadside-faq { padding: 20px 16px; } .roadside-faq h2 { font-size: 25px; } }
 </style>
 </head>
 
@@ -429,6 +439,23 @@ footer {
     also offers mobile battery testing and battery installation services.
   </p>
 
+</section>
+
+
+<section class="roadside-faq" aria-labelledby="faq-heading">
+  <h2 id="faq-heading">Jump Start Questions</h2>
+  <details>
+    <summary>How much does a jump start cost in El Paso?</summary>
+    <p>Jump start service starts at $45. Pricing varies with the distance to your location. We’ll agree on your price before heading out.</p>
+  </details>
+  <details>
+    <summary>Can you come to my vehicle for a jump start?</summary>
+    <p>Yes. We provide mobile jump start service throughout El Paso, including homes, workplaces and parking lots. Share your location when you call or text.</p>
+  </details>
+  <details>
+    <summary>What if I need more than a jump start?</summary>
+    <p>We also offer mobile battery testing and battery installation. Contact us with your vehicle details and symptoms to discuss the service you need.</p>
+  </details>
 </section>
 
 <section class="section trust">

@@ -295,6 +295,16 @@ footer {
     padding: 25px 20px;
   }
 }
+
+/* Compact, keyboard-accessible customer questions. */
+.roadside-faq { margin: 24px 0; padding: 22px; background: #171a22; border: 1px solid #2a2d37; border-radius: 22px; }
+.roadside-faq h2 { margin: 0 0 16px; color: #ffd21c; font-size: 28px; line-height: 1.25; }
+.roadside-faq details { border-top: 1px solid #343844; }
+.roadside-faq summary { padding: 16px 0; min-height: 48px; cursor: pointer; font-weight: 700; line-height: 1.5; }
+.roadside-faq summary:focus-visible { outline: 2px solid #ffd21c; outline-offset: 3px; border-radius: 4px; }
+.roadside-faq p { margin: 0 0 18px; color: #ddd; line-height: 1.7; }
+.roadside-faq a { color: #ffd21c; text-decoration: underline; }
+@media (max-width: 600px) { .roadside-faq { padding: 20px 16px; } .roadside-faq h2 { font-size: 25px; } }
 </style>
 </head>
 
@@ -428,6 +438,23 @@ footer {
     replacement, mobile battery installation is also available.
   </p>
 
+</section>
+
+
+<section class="roadside-faq" aria-labelledby="faq-heading">
+  <h2 id="faq-heading">Battery Testing Questions</h2>
+  <details>
+    <summary>How much does mobile battery testing cost in El Paso?</summary>
+    <p>Battery testing starts at $15. Pricing varies with the distance to your location. We’ll agree on your price before heading out.</p>
+  </details>
+  <details>
+    <summary>Do you test the battery at my location?</summary>
+    <p>Yes. We provide mobile car battery testing throughout El Paso. Call or text with your location and vehicle details.</p>
+  </details>
+  <details>
+    <summary>What if my battery needs more than testing?</summary>
+    <p>We also offer jump starts and mobile battery installation. Battery testing helps assess the battery’s condition so we can discuss the next step with you.</p>
+  </details>
 </section>
 
 <section class="section trust">
