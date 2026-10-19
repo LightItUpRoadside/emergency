@@ -5,47 +5,35 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Google Ads tag -->
+<!-- GOOGLE ADS TAG -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17781053338"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'AW-17781053338');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-17781053338');
 </script>
 
-<!-- Google Ads website phone call tracking -->
+<!-- GOOGLE ADS WEBSITE PHONE CALL TRACKING -->
 <script>
-gtag('config', 'AW-17781053338/pzqUCL2c7uocEJqv1Z5C', {
-  'phone_conversion_number': '(915) 247-2969'
-});
+  gtag('config', 'AW-17781053338/pzqUCL2c7uocEJqv1Z5C', {
+    'phone_conversion_number': '(915) 247-2969'
+  });
 </script>
 
-<title>Roadside Assistance El Paso TX | Lockouts, Battery Service, Tire Changes</title>
-<meta name="description" content="24/7 roadside assistance in El Paso, TX. Car lockouts, jump starts, mobile battery testing and installation, flat tire changes, and fuel delivery. Call or text Light It Up Roadside now.">
+<title>Roadside Assistance El Paso TX | Light It Up Roadside</title>
+<meta name="description" content="24/7 roadside assistance in El Paso, TX. Car lockouts, jump starts, battery testing and installation, tire changes, and emergency fuel delivery. Call Light It Up Roadside.">
 <link rel="canonical" href="https://lightituproadside.com/">
-<link rel="icon" type="image/png" href="/logo.png">
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Light It Up Roadside",
-  "alternateName": "Light It Up Roadside Assistance",
-  "url": "https://lightituproadside.com/"
-}
-</script>
+<link rel="icon" href="/logo.png" type="image/png">
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Light It Up Roadside",
-  "alternateName": "Light It Up Roadside Assistance",
   "url": "https://lightituproadside.com/",
   "telephone": "+1-915-247-2969",
   "image": "https://lightituproadside.com/logo.png",
-  "logo": "https://lightituproadside.com/logo.png",
   "areaServed": {
     "@type": "City",
     "name": "El Paso",
@@ -66,37 +54,46 @@ gtag('config', 'AW-17781053338/pzqUCL2c7uocEJqv1Z5C', {
   --muted: #b8bfcb;
   --yellow: #ffc61a;
   --line: rgba(255,255,255,.08);
-  --shadow: 0 20px 50px rgba(0,0,0,.32);
 }
 
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background:
-    radial-gradient(circle at top left, rgba(255,198,26,.12), transparent 24%),
-    linear-gradient(180deg,#0a0b0e,#101319 35%,#0a0b0e);
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(180deg,#0b0c10,#11141b 50%,#0b0c10);
   color: var(--text);
+  line-height: 1.6;
 }
 
-img { max-width: 100%; display: block; }
-a { color: inherit; text-decoration: none; }
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
 .wrap {
-  width: min(1100px, calc(100% - 24px));
+  width: min(1100px,calc(100% - 24px));
   margin: auto;
 }
 
-/* SMALLER HEADER */
+/* HEADER */
 
 .topbar {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(10,11,14,.94);
-  backdrop-filter: blur(10px);
+  background: rgba(10,11,14,.96);
   border-bottom: 1px solid var(--line);
 }
 
@@ -105,169 +102,169 @@ a { color: inherit; text-decoration: none; }
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 9px 0;
+  padding: 13px 0;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   min-width: 0;
 }
 
 .brand-logo {
-  width: 46px;
-  height: 46px;
-  border-radius: 12px;
-  object-fit: cover;
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
   background: white;
+  border-radius: 13px;
   padding: 4px;
   flex-shrink: 0;
 }
 
-.brand-text { min-width: 0; }
-
-.brand-name {
-  margin: 0;
-  font-size: 21px;
-  line-height: 1.15;
-  font-weight: 700;
+.brand-text {
+  min-width: 0;
 }
 
-.brand-text p {
-  margin: 5px 0 0;
+.brand-name {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.brand-services {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
+  margin-top: 5px;
   line-height: 1.5;
 }
 
-.top-cta {
+.top-call {
   background: var(--yellow);
   color: #111;
-  font-weight: 700;
-  padding: 12px 16px;
   border-radius: 14px;
+  padding: 12px 16px;
+  font-weight: 700;
   white-space: nowrap;
 }
 
 /* HERO */
 
-.hero { padding: 26px 0 16px; }
+.hero {
+  padding: 28px 0 18px;
+}
 
 .hero-grid {
   display: grid;
   grid-template-columns: 1.05fr .95fr;
-  gap: 24px;
-  align-items: center;
-}
-
-.hero-copy { grid-area: copy; }
-.hero-card { grid-area: photos; }
-.hero-stats { grid-area: stats; }
-
-.hero-grid {
   grid-template-areas:
     "copy photos"
     "stats photos";
+  gap: 22px;
+  align-items: center;
+}
+
+.hero-copy {
+  grid-area: copy;
+}
+
+.hero-photos {
+  grid-area: photos;
+}
+
+.hero-stats {
+  grid-area: stats;
 }
 
 .hero h1 {
+  font-size: clamp(32px,4.5vw,54px);
+  line-height: 1.12;
   margin: 0 0 18px;
-  font-size: clamp(32px, 5vw, 56px);
-  line-height: 1.08;
-  letter-spacing: -.03em;
 }
 
-.hero p {
-  margin: 0;
+.hero-description {
   color: var(--muted);
   font-size: 17px;
-  line-height: 1.65;
 }
 
 .hero-actions {
   display: flex;
-  gap: 12px;
   flex-wrap: wrap;
-  margin-top: 22px;
+  gap: 12px;
+  margin-top: 20px;
 }
 
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px 18px;
-  border-radius: 16px;
+.button {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 14px 20px;
   font-weight: 700;
 }
 
-.btn-primary {
+.button-yellow {
   background: var(--yellow);
   color: #111;
 }
 
-.btn-secondary {
-  border: 1px solid var(--line);
-  background: rgba(255,255,255,.02);
+.button-outline {
+  border: 1px solid #414651;
 }
 
 .eta {
   margin-top: 12px;
   color: var(--yellow);
-  font-size: 14px;
   font-weight: 700;
+  font-size: 14px;
 }
 
-.hero-card {
-  background: linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));
+.hero-photos {
+  background: var(--panel);
+  padding: 15px;
   border: 1px solid var(--line);
-  border-radius: 26px;
-  padding: 16px;
-  box-shadow: var(--shadow);
+  border-radius: 24px;
 }
 
-.hero-main {
+.hero-main-photo {
   width: 100%;
-  height: 410px;
+  height: 390px;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 18px;
 }
 
-.mini-grid {
+.photo-thumbnails {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 10px;
   margin-top: 10px;
 }
 
-.mini-grid img {
+.photo-thumbnails img {
   width: 100%;
-  height: 105px;
+  height: 100px;
   object-fit: cover;
-  border-radius: 14px;
+  border-radius: 12px;
 }
 
-/* STATS BELOW PHOTOS */
+/* REVIEW AND SERVICE STATS */
 
 .hero-stats {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 12px;
-  margin-top: 0;
 }
 
 .stat {
-  background: linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));
+  background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 18px;
-  padding: 16px;
-  box-shadow: var(--shadow);
+  padding: 18px;
 }
 
 .stat strong {
   display: block;
-  font-size: 24px;
-  margin-bottom: 6px;
+  font-size: 25px;
+  line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .stat span {
@@ -275,21 +272,21 @@ a { color: inherit; text-decoration: none; }
   font-size: 13px;
 }
 
-/* SECTIONS */
+/* SERVICES */
 
-.section { padding: 20px 0; }
-
-.section-title {
-  font-size: 32px;
-  margin: 0 0 10px;
-  letter-spacing: -.02em;
+.section {
+  padding: 25px 0;
 }
 
-.section-copy {
+.section h2 {
+  font-size: 31px;
+  line-height: 1.2;
+  margin: 0 0 12px;
+}
+
+.section-intro {
   color: var(--muted);
-  line-height: 1.7;
   margin: 0 0 20px;
-  max-width: 820px;
 }
 
 .services {
@@ -299,11 +296,10 @@ a { color: inherit; text-decoration: none; }
 }
 
 .service {
-  background: linear-gradient(180deg,var(--panel),var(--panel2));
+  background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 22px;
+  border-radius: 20px;
   overflow: hidden;
-  box-shadow: var(--shadow);
 }
 
 .service img {
@@ -312,303 +308,227 @@ a { color: inherit; text-decoration: none; }
   object-fit: cover;
 }
 
-.service-body { padding: 16px; }
+.service-content {
+  padding: 18px;
+}
 
 .service h3 {
+  font-size: 22px;
   margin: 0 0 8px;
-  font-size: 23px;
 }
 
 .service p {
-  margin: 0 0 12px;
   color: var(--muted);
-  line-height: 1.6;
+  margin: 0 0 15px;
   font-size: 15px;
 }
 
 .price {
   display: inline-block;
-  padding: 8px 12px;
-  border-radius: 999px;
-  background: rgba(255,198,26,.10);
   color: var(--yellow);
-  border: 1px solid rgba(255,198,26,.18);
+  border: 1px solid rgba(255,198,26,.25);
+  background: rgba(255,198,26,.08);
+  padding: 7px 12px;
+  border-radius: 30px;
   font-weight: 700;
   font-size: 14px;
 }
 
-.split {
+/* INFORMATION PANELS */
+
+.two-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 18px;
 }
 
 .panel {
-  background: linear-gradient(180deg,var(--panel),var(--panel2));
+  background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 22px;
   padding: 22px;
-  box-shadow: var(--shadow);
 }
 
-.checks {
-  display: grid;
-  gap: 12px;
-  margin-top: 16px;
+.panel h2 {
+  font-size: 27px;
+  margin: 0 0 14px;
 }
 
-.check {
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
-  background: rgba(255,255,255,.03);
-  border: 1px solid rgba(255,255,255,.05);
+.panel p {
+  color: var(--muted);
+}
+
+.feature {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.feature strong {
+  color: var(--yellow);
+}
+
+.map-frame {
+  width: 100%;
+  height: 300px;
+  border: 0;
   border-radius: 16px;
-  padding: 14px;
+  margin-top: 12px;
+  background: #222;
 }
 
-.tick {
-  min-width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  background: rgba(255,198,26,.12);
+.map-link {
+  display: inline-block;
+  margin-top: 12px;
   color: var(--yellow);
   font-weight: 700;
 }
 
-.areas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 18px 0;
+/* FAQ */
+
+.faq {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 22px;
+  margin-top: 20px;
 }
 
-.pill {
-  padding: 9px 13px;
-  border-radius: 999px;
-  background: rgba(255,255,255,.03);
-  border: 1px solid var(--line);
-  font-size: 14px;
+.faq h2 {
+  color: var(--yellow);
+}
+
+.faq details {
+  border-top: 1px solid #333842;
+}
+
+.faq summary {
+  padding: 15px 0;
+  cursor: pointer;
   font-weight: 700;
+}
+
+.faq p {
+  color: var(--muted);
+}
+
+.faq a {
+  color: var(--yellow);
 }
 
 /* REVIEWS */
 
-.reviews-head {
+.review-summary {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 16px;
-  flex-wrap: wrap;
+  gap: 14px;
   margin-bottom: 18px;
 }
 
-.rating-box {
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  padding: 16px 18px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.rating-number {
-  font-size: 32px;
-  font-weight: 700;
+.review-summary strong {
+  font-size: 30px;
 }
 
 .stars {
   color: var(--yellow);
-  letter-spacing: 2px;
-  font-size: 18px;
 }
 
-.reviews {
+.review-grid {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 16px;
 }
 
 .review {
-  background: linear-gradient(180deg,var(--panel),var(--panel2));
+  background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 20px;
+  border-radius: 18px;
   padding: 18px;
-  box-shadow: var(--shadow);
-}
-
-.review .stars-line {
-  color: var(--yellow);
-  margin-bottom: 10px;
-  letter-spacing: 1px;
 }
 
 .review p {
-  margin: 0 0 12px;
-  line-height: 1.7;
-  font-size: 15px;
+  margin: 12px 0;
 }
 
-.review strong { display: block; }
-
-/* PHOTO GALLERY */
+/* GALLERY */
 
 .gallery {
   display: grid;
-  grid-template-columns: 1.2fr .8fr .8fr;
+  grid-template-columns: repeat(3,1fr);
   gap: 12px;
 }
 
 .gallery img {
   width: 100%;
-  height: 180px;
+  height: 210px;
   object-fit: cover;
-  border-radius: 18px;
+  border-radius: 15px;
 }
 
-.gallery .tall { height: 372px; }
+/* FINAL CALL */
 
-/* FAQ */
-
-.roadside-faq {
-  margin: 24px 0;
-  padding: 22px;
-  background: var(--panel);
-  border: 1px solid #2a2d37;
-  border-radius: 22px;
-}
-
-.roadside-faq h2 {
-  margin: 0 0 16px;
-  color: var(--yellow);
-  font-size: 28px;
-}
-
-.roadside-faq details {
-  border-top: 1px solid #343844;
-}
-
-.roadside-faq summary {
-  padding: 16px 0;
-  min-height: 48px;
-  cursor: pointer;
-  font-weight: 700;
-  line-height: 1.5;
-}
-
-.roadside-faq p {
-  margin: 0 0 18px;
-  color: #ddd;
-  line-height: 1.7;
-}
-
-.roadside-faq a {
-  color: var(--yellow);
-  text-decoration: underline;
-}
-
-/* BOTTOM CTA */
-
-.cta {
-  margin: 24px 0 48px;
-  background: linear-gradient(135deg,#ffc61a,#ffd75a);
-  color: #111;
-  border-radius: 26px;
-  padding: 26px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-
-.cta h3 {
-  margin: 0 0 8px;
-  font-size: 32px;
-}
-
-.cta p {
-  margin: 0;
-  color: rgba(0,0,0,.72);
-  font-weight: 700;
-  line-height: 1.6;
-}
-
-.cta a {
-  display: inline-block;
-  background: #111;
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 18px;
-  font-weight: 700;
-  white-space: nowrap;
-  margin-top: 18px;
-}
-
-.float-call {
-  position: fixed;
-  bottom: 14px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: calc(100% - 24px);
-  max-width: 360px;
-  z-index: 999;
+.final-cta {
+  margin: 25px 0 80px;
   background: var(--yellow);
   color: #111;
-  padding: 16px 18px;
+  padding: 26px;
+  border-radius: 24px;
+}
+
+.final-cta h2 {
+  margin: 0 0 10px;
+}
+
+.final-cta a {
+  display: inline-block;
+  background: #111;
+  color: white;
+  padding: 14px 18px;
+  border-radius: 14px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.floating-call {
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  width: calc(100% - 30px);
+  max-width: 360px;
+  padding: 16px;
   text-align: center;
+  background: var(--yellow);
+  color: #111;
   border-radius: 16px;
   font-weight: 700;
-  box-shadow: 0 10px 24px rgba(0,0,0,.35);
-}
-
-.seo-block {
-  color: var(--muted);
-  line-height: 1.8;
-  font-size: 15px;
-}
-
-.footer-space { height: 85px; }
-
-/* TABLET */
-
-@media (max-width: 960px) {
-  .split,.services,.reviews {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .gallery {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .gallery .tall { height: 220px; }
+  box-shadow: 0 8px 24px rgba(0,0,0,.4);
 }
 
 /* MOBILE */
 
-@media (max-width: 760px) {
-  .top-cta { display: none; }
+@media(max-width:760px) {
 
-  .nav { padding: 10px 0; }
+  .nav {
+    padding: 13px 0;
+  }
 
   .brand-logo {
-    width: 44px;
-    height: 44px;
+    width: 54px;
+    height: 54px;
   }
 
   .brand-name {
-    font-size: 17px;
-    line-height: 1.2;
+    font-size: 21px;
   }
 
-  .brand-text p {
-    font-size: 10px;
-    line-height: 1.45;
+  .brand-services {
+    font-size: 11px;
   }
 
-  .hero { padding-top: 24px; }
+  .top-call {
+    display: none;
+  }
 
   .hero-grid {
     grid-template-columns: 1fr;
@@ -620,41 +540,43 @@ a { color: inherit; text-decoration: none; }
   }
 
   .hero h1 {
-    font-size: 34px;
-    line-height: 1.12;
-    margin-top: 0;
+    font-size: 33px;
   }
 
-  .hero p { font-size: 16px; }
+  .hero-description {
+    font-size: 16px;
+  }
 
-  .hero-main { height: 300px; }
+  .hero-main-photo {
+    height: 300px;
+  }
 
-  .mini-grid img { height: 95px; }
+  .photo-thumbnails img {
+    height: 90px;
+  }
 
   .hero-stats {
     grid-template-columns: 1fr;
-    gap: 12px;
   }
 
-  .stat { padding: 20px; }
-
-  .split,.services,.reviews,.gallery {
+  .services,
+  .two-columns,
+  .review-grid,
+  .gallery {
     grid-template-columns: 1fr;
   }
 
-  .gallery img,.gallery .tall {
-    height: 180px;
+  .section h2 {
+    font-size: 27px;
   }
 
-  .cta {
-    flex-direction: column;
-    align-items: flex-start;
+  .gallery img {
+    height: 200px;
   }
 
-  .section-title { font-size: 28px; }
-
-  .roadside-faq { padding: 20px 16px; }
-  .roadside-faq h2 { font-size: 25px; }
+  .map-frame {
+    height: 280px;
+  }
 }
 </style>
 </head>
@@ -667,34 +589,44 @@ a { color: inherit; text-decoration: none; }
   <div class="wrap nav">
     <div class="brand">
       <img class="brand-logo" src="logo.png" alt="Light It Up Roadside logo">
+
       <div class="brand-text">
         <div class="brand-name">Light It Up Roadside</div>
-        <p>El Paso, TX • Lockouts • Battery Service • Tire Changes • Jump Starts</p>
+
+        <div class="brand-services">
+          El Paso, TX • Lockouts • Battery Service • Tire Changes • Jump Starts
+        </div>
       </div>
     </div>
-    <a class="top-cta" href="tel:+19152472969">Call (915) 247-2969</a>
+
+    <a class="top-call" href="tel:+19152472969">
+      Call (915) 247-2969
+    </a>
   </div>
 </header>
 
 <main class="wrap">
 
-<!-- HERO: PHOTOS BEFORE STATS -->
+<!-- HERO -->
 
 <section class="hero">
   <div class="hero-grid">
 
     <div class="hero-copy">
-      <h1>24/7 Roadside Assistance in El Paso for Car Lockouts, Dead Batteries, Jump Starts, and Flat Tires.</h1>
+      <h1>
+        24/7 Roadside Assistance in El Paso for Car Lockouts,
+        Dead Batteries, Jump Starts, and Flat Tires.
+      </h1>
 
-      <p>
+      <p class="hero-description">
         Light It Up Roadside provides fast mobile roadside help throughout El Paso, TX.
         Call or text for car lockouts, jump starts, mobile battery testing and installation,
         flat tire changes, and emergency fuel delivery.
       </p>
 
       <div class="hero-actions">
-        <a class="btn btn-primary" href="tel:+19152472969">Call Now</a>
-        <a class="btn btn-secondary" href="sms:+19152472969">Text Now</a>
+        <a class="button button-yellow" href="tel:+19152472969">Call Now</a>
+        <a class="button button-outline" href="sms:+19152472969">Text Now</a>
       </div>
 
       <div class="eta">
@@ -702,15 +634,19 @@ a { color: inherit; text-decoration: none; }
       </div>
     </div>
 
-    <div class="hero-card">
-      <img class="hero-main" src="tire.png" alt="Light It Up Roadside working on a vehicle in El Paso">
+    <!-- PHOTOS FIRST -->
 
-      <div class="mini-grid">
-        <img src="tire.png" alt="Roadside service in El Paso">
+    <div class="hero-photos">
+      <img class="hero-main-photo" src="tire.png" alt="Light It Up Roadside providing roadside assistance">
+
+      <div class="photo-thumbnails">
+        <img src="tire.png" alt="Roadside service">
         <img src="jump.png" alt="Jump start service">
-        <img src="fuel.png" alt="Fuel delivery service">
+        <img src="fuel.png" alt="Emergency fuel delivery">
       </div>
     </div>
+
+    <!-- INFORMATION BELOW PHOTOS -->
 
     <div class="hero-stats">
       <div class="stat">
@@ -735,65 +671,66 @@ a { color: inherit; text-decoration: none; }
 <!-- SERVICES -->
 
 <section class="section" id="services">
-  <h2 class="section-title">Roadside services in El Paso, TX</h2>
 
-  <p class="section-copy">
+  <h2>Roadside Services in El Paso, TX</h2>
+
+  <p class="section-intro">
     Clear pricing, real services, and fast mobile help for drivers in El Paso.
-    Travel outside El Paso may be available, but pricing can vary based on distance.
+    Pricing may vary based on distance.
   </p>
 
   <div class="services">
 
     <a class="service" href="car-lockout-el-paso/">
-      <img src="tire.png" alt="Car lockout service in El Paso">
-      <div class="service-body">
+      <img src="lock.png" alt="Car lockout service">
+      <div class="service-content">
         <h3>Lockout Service</h3>
-        <p>Locked your keys in your car? We provide fast mobile car lockout service throughout El Paso, helping you regain access to your vehicle safely and without unnecessary damage.</p>
+        <p>Locked your keys inside your vehicle? We provide mobile car lockout service throughout El Paso to help you get back into your vehicle.</p>
         <span class="price">Starting at $65</span>
       </div>
     </a>
 
     <a class="service" href="tire-change-el-paso/">
-      <img src="lock.png" alt="Tire change in El Paso">
-      <div class="service-body">
+      <img src="tire.png" alt="Flat tire change">
+      <div class="service-content">
         <h3>Tire Change</h3>
-        <p>Got a flat tire? We provide mobile flat tire changes and spare tire installation throughout El Paso to help get you safely back on the road.</p>
+        <p>Got a flat tire? We provide mobile spare tire installation and tire changes throughout El Paso.</p>
         <span class="price">Starting at $60</span>
       </div>
     </a>
 
     <a class="service" href="jump-start-el-paso/">
-      <img src="jump.png" alt="Jump start service in El Paso">
-      <div class="service-body">
+      <img src="jump.png" alt="Jump start service">
+      <div class="service-content">
         <h3>Jump Start</h3>
-        <p>Car won't start? We provide fast mobile jump start service throughout El Paso for dead or weak vehicle batteries to help get you back on the road.</p>
+        <p>Dead or weak battery? We provide mobile jump starts throughout El Paso.</p>
         <span class="price">Starting at $45</span>
       </div>
     </a>
 
     <a class="service" href="fuel-delivery-el-paso/">
-      <img src="fuel.png" alt="Fuel delivery in El Paso">
-      <div class="service-body">
+      <img src="fuel.png" alt="Fuel delivery">
+      <div class="service-content">
         <h3>Fuel Delivery</h3>
-        <p>Ran out of gas? We provide mobile emergency fuel delivery throughout El Paso, bringing fuel directly to your vehicle so you can get back on the road.</p>
+        <p>Ran out of gas? We bring emergency fuel directly to your vehicle in El Paso.</p>
         <span class="price">Starting at $45</span>
       </div>
     </a>
 
     <a class="service" href="battery-test-el-paso/">
-      <img src="battery tester.jpg" alt="Battery testing in El Paso">
-      <div class="service-body">
+      <img src="battery tester.jpg" alt="Light It Up Roadside performing a real vehicle battery test">
+      <div class="service-content">
         <h3>Battery Test</h3>
-        <p>Not sure if your battery is failing? We provide mobile car battery testing throughout El Paso to check your battery on-site and help determine if you need a jump start or replacement.</p>
+        <p>We provide mobile battery testing to help determine whether your battery needs charging or replacement.</p>
         <span class="price">Starting at $15</span>
       </div>
     </a>
 
     <a class="service" href="battery-installation-el-paso/">
-      <img src="install.jpeg" alt="Mobile battery installation in El Paso">
-      <div class="service-body">
+      <img src="install.jpeg" alt="Light It Up Roadside performing a real vehicle battery installation">
+      <div class="service-content">
         <h3>Battery Installation</h3>
-        <p>Need a new car battery installed? We provide mobile battery installation throughout El Paso. You can provide the replacement battery, or contact us for options to purchase the correct battery for your vehicle.</p>
+        <p>Need a replacement battery installed? We provide mobile battery installation throughout El Paso.</p>
         <span class="price">Starting at $80+</span>
       </div>
     </a>
@@ -801,151 +738,145 @@ a { color: inherit; text-decoration: none; }
   </div>
 </section>
 
-<!-- FAQ -->
-
-<section class="roadside-faq" aria-labelledby="faq-heading">
-  <h2 id="faq-heading">Common Roadside Assistance Questions</h2>
-
-  <details>
-    <summary>How do I request roadside assistance in El Paso?</summary>
-    <p>Call or text Light It Up Roadside at <a href="tel:+19152472969">915-247-2969</a>. Share your exact location or a map pin, your vehicle's year, make and model, and the help you need. We'll agree on the service price before heading out to you.</p>
-  </details>
-
-  <details>
-    <summary>How much does roadside assistance cost?</summary>
-    <p>The price depends on the service you need and the distance to your location. Our website lists starting prices, and we'll agree on your price before heading out to you.</p>
-  </details>
-
-  <details>
-    <summary>Do I need a spare tire for a tire change?</summary>
-    <p>Yes. You must have a usable spare tire available for us to install. Let us know when you call if you do not have one.</p>
-  </details>
-
-  <details>
-    <summary>What information should I provide when I call or text?</summary>
-    <p>Share your exact location or a map pin, your vehicle's year, make and model, and a short description of the problem. For tire changes, confirm that you have a usable spare tire.</p>
-  </details>
-</section>
-
 <!-- WHY CHOOSE US AND SERVICE AREA -->
 
 <section class="section">
-  <div class="split">
+  <div class="two-columns">
 
     <div class="panel">
-      <h2 class="section-title" style="font-size:28px;">Why Choose Light It Up Roadside</h2>
+      <h2>Why Choose Light It Up Roadside?</h2>
 
-      <div class="checks">
-        <div class="check">
-          <div class="tick">✓</div>
-          <div>
-            <strong>Fast local service</strong>
-            <div style="color:var(--muted);">Typical ETA is 20–40 minutes in El Paso when available.</div>
-          </div>
-        </div>
+      <div class="feature">
+        <strong>✓ Fast Local Service</strong>
+        <p>Typical arrival time is 20–40 minutes in El Paso when available.</p>
+      </div>
 
-        <div class="check">
-          <div class="tick">✓</div>
-          <div>
-            <strong>Available 24/7</strong>
-            <div style="color:var(--muted);">Emergency roadside help when drivers need it most.</div>
-          </div>
-        </div>
+      <div class="feature">
+        <strong>✓ 24/7 Availability</strong>
+        <p>Emergency roadside help when you need it.</p>
+      </div>
 
-        <div class="check">
-          <div class="tick">✓</div>
-          <div>
-            <strong>Clear starting prices</strong>
-            <div style="color:var(--muted);">Simple pricing helps customers know what to expect before they call.</div>
-          </div>
-        </div>
+      <div class="feature">
+        <strong>✓ Clear Starting Prices</strong>
+        <p>Know what to expect before requesting service.</p>
+      </div>
 
-        <div class="check">
-          <div class="tick">✓</div>
-          <div>
-            <strong>Real local operator</strong>
-            <div style="color:var(--muted);">Real photos, real reviews, and real roadside work in El Paso.</div>
-          </div>
-        </div>
+      <div class="feature">
+        <strong>✓ Real Local Operator</strong>
+        <p>Real work photos, real customer reviews, and local roadside service.</p>
       </div>
     </div>
 
-    <div class="panel">
-      <h2 class="section-title" style="font-size:28px;">Service Area</h2>
+    <!-- GOOGLE MAP OF EL PASO -->
 
-      <p class="section-copy">
-        Serving drivers in El Paso, Texas. Longer-distance service may be available depending on location, and pricing may vary.
+    <div class="panel">
+      <h2>Service Area</h2>
+
+      <p>
+        Light It Up Roadside serves drivers throughout El Paso, Texas.
+        Availability and pricing depend on your location.
       </p>
 
-      <div class="areas">
-        <div class="pill">El Paso, TX</div>
-        <div class="pill">24/7 Availability</div>
-        <div class="pill">Cars &amp; SUVs</div>
-        <div class="pill">Call or Text</div>
-      </div>
+      <iframe
+        class="map-frame"
+        title="Google Map of El Paso, Texas"
+        src="https://maps.google.com/maps?q=El%20Paso%2C%20Texas&amp;z=11&amp;output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen>
+      </iframe>
 
-      <img style="border-radius:18px;height:230px;width:100%;object-fit:cover;" src="tire.png" alt="Roadside service in El Paso">
+      <a class="map-link"
+         href="https://www.google.com/maps/search/?api=1&amp;query=El+Paso%2C+Texas"
+         target="_blank"
+         rel="noopener noreferrer">
+        Open El Paso in Google Maps →
+      </a>
     </div>
 
+  </div>
+</section>
+
+<!-- FAQ -->
+
+<section class="section">
+  <div class="faq">
+    <h2>Common Roadside Assistance Questions</h2>
+
+    <details>
+      <summary>How do I request roadside assistance in El Paso?</summary>
+      <p>Call or text <a href="tel:+19152472969">(915) 247-2969</a>. Provide your location, vehicle information, and the service you need.</p>
+    </details>
+
+    <details>
+      <summary>How much does roadside assistance cost?</summary>
+      <p>Pricing depends on the service and distance. We'll confirm your price before heading to your location.</p>
+    </details>
+
+    <details>
+      <summary>Do I need a spare tire for a tire change?</summary>
+      <p>Yes, a usable spare tire is needed for spare tire installation. Let us know if you don't have one.</p>
+    </details>
+
+    <details>
+      <summary>What information should I provide when I call?</summary>
+      <p>Your location, vehicle year, make and model, and a description of the problem.</p>
+    </details>
   </div>
 </section>
 
 <!-- CUSTOMER REVIEWS -->
 
 <section class="section">
-  <div class="reviews-head">
-    <div>
-      <h2 class="section-title">Customer Reviews</h2>
-      <p class="section-copy" style="margin-bottom:0;">
-        Real Google reviews from customers in El Paso.
-      </p>
-    </div>
+  <h2>Customer Reviews</h2>
 
-    <div class="rating-box">
-      <div class="rating-number">5.0</div>
-      <div>
-        <div class="stars">★★★★★</div>
-        <div style="color:var(--muted);font-size:14px;">Based on 35 reviews</div>
-      </div>
+  <div class="review-summary">
+    <strong>5.0</strong>
+    <div>
+      <div class="stars">★★★★★</div>
+      <div>35 Google reviews</div>
     </div>
   </div>
 
-  <div class="reviews">
+  <div class="review-grid">
+
     <div class="review">
-      <div class="stars-line">★★★★★</div>
+      <div class="stars">★★★★★</div>
       <p>“The best customer service and very fast service. Responded within 20 minutes to change my tire at 9:00 pm. Thank you🙏”</p>
       <strong>Jose A</strong>
     </div>
 
     <div class="review">
-      <div class="stars-line">★★★★★</div>
+      <div class="stars">★★★★★</div>
       <p>“Came in 20 minutes, professional and opened it without damaging my car. Highly recommend.”</p>
       <strong>Alexis Madeja</strong>
     </div>
 
     <div class="review">
-      <div class="stars-line">★★★★★</div>
+      <div class="stars">★★★★★</div>
       <p>“Cesar was courageous, knowledgeable and professional. He replaced a battery on a2022 Volvo s60 sedan that was not easy. He did it timely and efficiently at a reasonable price”</p>
       <strong>Ready Ralph</strong>
     </div>
+
   </div>
 </section>
 
 <!-- REAL WORK PHOTOS -->
 
 <section class="section">
-  <h2 class="section-title">Real Work Photos</h2>
+  <h2>Real Work Photos</h2>
 
-  <p class="section-copy">
-    Real roadside jobs, real equipment, and real service in El Paso.
+  <p class="section-intro">
+    Real roadside jobs, equipment, and service throughout El Paso.
   </p>
 
   <div class="gallery">
-    <img class="tall" src="tire.png" alt="Tire service">
+    <img src="tire.png" alt="Roadside tire service">
     <img src="jump.png" alt="Jump start">
     <img src="fuel.png" alt="Fuel delivery">
-    <img src="lock.png" alt="Lockout help">
-    <img src="logo.png" alt="Light It Up Roadside logo">
+    <img src="lock.png" alt="Car lockout">
+    <img src="battery tester.jpg" alt="Battery testing">
+    <img src="install.jpeg" alt="Battery installation">
   </div>
 </section>
 
@@ -953,37 +884,41 @@ a { color: inherit; text-decoration: none; }
 
 <section class="section">
   <div class="panel">
-    <h2 class="section-title" style="font-size:28px;">About Light It Up Roadside</h2>
+    <h2>About Light It Up Roadside</h2>
 
-    <div class="seo-block">
-      Light It Up Roadside provides 24/7 mobile roadside service throughout El Paso, Texas.
-      We help local drivers with car lockouts, jump starts, mobile battery testing and installation,
-      flat tire changes, and emergency fuel delivery.
-      Whether your keys are locked inside your vehicle, your battery is dead,
-      or you have a flat tire, call or text Light It Up Roadside for fast local help.
-    </div>
+    <p>
+      Light It Up Roadside provides 24/7 mobile roadside assistance
+      throughout El Paso, Texas. Our services include car lockouts,
+      jump starts, mobile battery testing and installation, flat tire
+      changes, and emergency fuel delivery.
+    </p>
+
+    <p>
+      Whether you're locked out of your car, dealing with a dead battery,
+      or have a flat tire, call or text us for local roadside help.
+    </p>
   </div>
 </section>
 
 <!-- FINAL CALL TO ACTION -->
 
-<section class="cta">
-  <div>
-    <h2 style="margin:0 0 8px;font-size:32px;">Need Help Right Now?</h2>
-    <p>
-      Call or text Light It Up Roadside for 24/7 help with car lockouts,
-      dead batteries, jump starts, and flat tires in El Paso.
-    </p>
-    <a href="tel:+19152472969">Call (915) 247-2969</a>
-  </div>
-</section>
+<section class="final-cta">
+  <h2>Need Help Right Now?</h2>
 
-<div class="footer-space"></div>
+  <p>
+    Call or text Light It Up Roadside for 24/7 roadside assistance in El Paso.
+  </p>
+
+  <a href="tel:+19152472969">Call (915) 247-2969</a>
+</section>
 
 </main>
 
 <!-- MOBILE CALL BUTTON -->
-<a class="float-call" href="tel:+19152472969">Call Now</a>
+
+<a class="floating-call" href="tel:+19152472969">
+  Call Now
+</a>
 
 </body>
 </html>
