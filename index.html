@@ -1,8 +1,4 @@
 
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +28,9 @@
         var walker = document.createTreeWalker(link, NodeFilter.SHOW_TEXT);
         var node;
         while ((node = walker.nextNode())) {
-          node.nodeValue = node.nodeValue.replace(/\(915\)\s*247-2969|915-247-2969|9152472969/g, function() { return formattedNumber || dial; });
+          node.nodeValue = node.nodeValue.replace(/\(915\)\s*247-2969|915-247-2969|9152472969/g, function() {
+            return formattedNumber || dial;
+          });
         }
       });
     }
@@ -49,7 +47,9 @@
 </script>
 
 <title>24/7 Roadside Assistance El Paso TX | Light It Up Roadside</title>
-<meta name="description" content="Need roadside assistance in El Paso? Light It Up Roadside offers 24/7 car lockouts, tire changes, jump starts, battery services and fuel delivery. Call (915) 247-2969.">
+
+<meta name="description" content="Need roadside assistance in El Paso? Light It Up Roadside offers 24/7 car lockouts, spare tire changes, jump starts with battery testing, battery installation and fuel delivery. Call (915) 247-2969.">
+
 <link rel="canonical" href="https://lightituproadside.com/">
 <link rel="icon" href="/logo.png" type="image/png">
 
@@ -61,7 +61,7 @@
   "url": "https://lightituproadside.com/",
   "telephone": "+1-915-247-2969",
   "image": "https://lightituproadside.com/logo.png",
-  "description": "24/7 mobile roadside assistance including car lockouts, tire changes, jump starts, battery testing and installation, and fuel delivery.",
+  "description": "24/7 mobile roadside assistance including car lockouts, spare tire changes, jump starts with battery testing included, mobile battery installation, and fuel delivery.",
   "areaServed": {
     "@type": "City",
     "name": "El Paso",
@@ -827,14 +827,17 @@ button { font: inherit; }
       </div>
     </a>
 
-    <!-- JUMP START -->
+    <!-- JUMP START AND BATTERY TESTING -->
     <a class="service" href="jump-start-el-paso/">
-      <img src="jump.png" alt="Mobile car battery jump start" loading="lazy">
+      <img src="jump.png" alt="Mobile jump start and battery testing in El Paso" loading="lazy">
       <div class="service-content">
-        <h3>Jump Start</h3>
-        <p>Battery won't start your car? Call us for a mobile jump start.</p>
+        <h3>Jump Start &amp; Battery Testing</h3>
+        <p>
+          Dead battery? Get a mobile jump start with battery testing included.
+          Gas engines up to 10L and diesel engines up to 8L.
+        </p>
         <div class="service-bottom">
-          <span class="price">Starting at $45</span>
+          <span class="price">Starting at $60</span>
           <span class="view-service">View Service →</span>
         </div>
       </div>
@@ -853,25 +856,16 @@ button { font: inherit; }
       </div>
     </a>
 
-    <!-- BATTERY TEST -->
-    <a class="service" href="battery-test-el-paso/">
-      <img src="battery tester.jpg" alt="Mobile vehicle battery testing" loading="lazy">
-      <div class="service-content">
-        <h3>Battery Test</h3>
-        <p>Not sure if your battery is bad? We'll test it at your location.</p>
-        <div class="service-bottom">
-          <span class="price">Starting at $15</span>
-          <span class="view-service">View Service →</span>
-        </div>
-      </div>
-    </a>
-
     <!-- BATTERY INSTALLATION -->
     <a class="service" href="battery-installation-el-paso/">
       <img src="install.jpeg" alt="Mobile car battery installation" loading="lazy">
       <div class="service-content">
         <h3>Battery Installation</h3>
-        <p>Need a battery installed? Contact us for mobile installation.</p>
+        <p>
+          Already purchased a replacement battery?
+          We'll install your compatible battery at your location.
+          Installation labor only.
+        </p>
         <div class="service-bottom">
           <span class="price">Starting at $80+</span>
           <span class="view-service">View Service →</span>
@@ -975,9 +969,11 @@ button { font: inherit; }
       <summary>How much does roadside assistance cost in El Paso?</summary>
       <p>
         Pricing depends on the service, your location, and the
-        situation. Jump starts and fuel delivery start at $45,
-        tire changes start at $60, and car lockouts start at $65.
-        We'll confirm the total price before heading out.
+        situation. Jump starts with battery testing included
+        start at $60, fuel delivery starts at $45,
+        spare tire changes start at $60, and car lockouts
+        start at $65. Mobile battery installation labor
+        starts at $80. We'll confirm the total price before heading out.
       </p>
     </details>
 
@@ -1023,10 +1019,30 @@ button { font: inherit; }
     <details>
       <summary>Can you jump-start my car if the battery is dead?</summary>
       <p>
-        Yes. We provide mobile jump-start service for vehicles
-        with weak or discharged batteries. If the vehicle
-        still won't start, the issue may involve the battery,
-        starter, alternator, or another component.
+        Yes. We provide mobile jump starts with battery testing
+        included, starting at $60. If the vehicle still won't
+        start, the issue may involve the battery, starter,
+        alternator, or another component.
+        <a href="jump-start-el-paso/">Learn more about our jump start and battery testing service.</a>
+      </p>
+    </details>
+
+    <details>
+      <summary>Is battery testing included with a jump start?</summary>
+      <p>
+        Yes. Our combined jump start and battery testing service
+        starts at $60. We test your battery on-site to help
+        evaluate its condition and whether replacement may be needed.
+      </p>
+    </details>
+
+    <details>
+      <summary>Can you jump-start diesel trucks and large engines?</summary>
+      <p>
+        Our jump-start equipment can assist compatible gasoline
+        engines up to 10 liters and diesel engines up to 8 liters.
+        Contact us with your vehicle's year, make and model
+        to confirm compatibility and availability.
       </p>
     </details>
 
@@ -1036,7 +1052,8 @@ button { font: inherit; }
         Common warning signs include slow cranking, repeated
         jump starts, or trouble starting the vehicle.
         A battery test can help evaluate its condition.
-        We offer mobile battery testing in El Paso.
+        Battery testing is included in our combined jump start
+        service in El Paso, starting at $60.
       </p>
     </details>
 
@@ -1044,9 +1061,11 @@ button { font: inherit; }
       <summary>Do you install car batteries at my location?</summary>
       <p>
         Yes. We offer mobile battery installation for supported
-        vehicles. Contact us with your vehicle's year, make,
-        model, and battery information to confirm compatibility
-        and pricing.
+        vehicles, starting at $80 for installation labor.
+        Customers must purchase and provide a compatible
+        replacement battery. The battery itself is not included.
+        Contact us with your vehicle's year, make, model,
+        and battery information to confirm compatibility and pricing.
       </p>
     </details>
 
@@ -1279,7 +1298,3 @@ button { font: inherit; }
 
 </body>
 </html>
-
-
-
-
