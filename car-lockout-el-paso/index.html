@@ -1,4 +1,8 @@
 
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +16,31 @@
   gtag('config', 'AW-17781053338');
 </script>
 <script>
+  function updateRoadsidePhone(formattedNumber, mobileNumber) {
+    var dial = String(mobileNumber || formattedNumber || '').replace(/[^0-9+]/g, '');
+    if (!/^\+?[0-9]{7,15}$/.test(dial)) return;
+    function updateLinks() {
+      document.querySelectorAll('a[href^="tel:"]').forEach(function(link) {
+        var original = link.getAttribute('href').replace(/\D/g, '');
+        if (original !== '19152472969' && original !== '9152472969' && !link.hasAttribute('data-roadside-call')) return;
+        link.setAttribute('data-roadside-call', 'true');
+        link.setAttribute('href', 'tel:' + dial);
+        var walker = document.createTreeWalker(link, NodeFilter.SHOW_TEXT);
+        var node;
+        while ((node = walker.nextNode())) {
+          node.nodeValue = node.nodeValue.replace(/\(915\)\s*247-2969|915-247-2969|9152472969/g, function() { return formattedNumber || dial; });
+        }
+      });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', updateLinks, {once: true});
+    } else {
+      updateLinks();
+    }
+  }
   gtag('config', 'AW-17781053338/pzqUCL2c7uocEJqv1Z5C', {
-    'phone_conversion_number': '(915) 247-2969'
+    'phone_conversion_number': '(915) 247-2969',
+    'phone_conversion_callback': updateRoadsidePhone
   });
 </script>
 <meta charset="UTF-8">
@@ -563,3 +590,7 @@ footer {
 
 </body>
 </html>
+
+
+
+
