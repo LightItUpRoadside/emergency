@@ -1,16 +1,83 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Jump Start Service in El Paso, TX | Light It Up Roadside</title>
+<!-- GOOGLE ADS - KEEP -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17781053338"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-17781053338');
+</script>
 
-<meta name="description" content="Dead battery in El Paso, TX? Light It Up Roadside provides 24/7 mobile jump start service throughout El Paso. Jump starts starting at $45. Call or text now.">
+<!-- GOOGLE ADS PHONE CONVERSION TRACKING - KEEP -->
+<script>
+function updateRoadsidePhone(formattedNumber, mobileNumber) {
+  var dial = String(mobileNumber || formattedNumber || '').replace(/[^0-9+]/g, '');
+  if (!/^\+?[0-9]{7,15}$/.test(dial)) return;
+  function updateLinks() {
+    document.querySelectorAll('a[href^="tel:"]').forEach(function(link) {
+      var original = link.getAttribute('href').replace(/\D/g, '');
+      if (original !== '19152472969' && original !== '9152472969' && !link.hasAttribute('data-roadside-call')) return;
+      link.setAttribute('data-roadside-call', 'true');
+      link.setAttribute('href', 'tel:' + dial);
+      var walker = document.createTreeWalker(link, NodeFilter.SHOW_TEXT);
+      var node;
+      while ((node = walker.nextNode())) {
+        node.nodeValue = node.nodeValue.replace(/\(915\)\s*247-2969|915-247-2969|9152472969/g, function() {
+          return formattedNumber || dial;
+        });
+      }
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', updateLinks, {once: true});
+  } else {
+    updateLinks();
+  }
+}
+gtag('config', 'AW-17781053338/pzqUCL2c7uocEJqv1Z5C', {
+  'phone_conversion_number': '(915) 247-2969',
+  'phone_conversion_callback': updateRoadsidePhone
+});
+</script>
+
+<title>Jump Start &amp; Battery Testing in El Paso, TX | Light It Up Roadside</title>
+
+<meta name="description" content="24/7 mobile jump starts with battery testing included in El Paso, TX, starting at $60. Gas engines up to 10L and diesel up to 8L. Call Light It Up Roadside.">
 
 <link rel="canonical" href="https://lightituproadside.com/jump-start-el-paso/">
-
 <link rel="icon" type="image/png" href="/logo.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Jump Start & Battery Testing",
+  "serviceType": "Mobile jump start and battery testing",
+  "url": "https://lightituproadside.com/jump-start-el-paso/",
+  "description": "Mobile jump start assistance with on-site battery testing included, starting at $60 in El Paso, Texas.",
+  "areaServed": {
+    "@type": "City",
+    "name": "El Paso",
+    "containedInPlace": {
+      "@type": "State",
+      "name": "Texas"
+    }
+  },
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Light It Up Roadside",
+    "telephone": "+19152472969",
+    "url": "https://lightituproadside.com/",
+    "image": "https://lightituproadside.com/logo.png"
+  }
+}
+</script>
 
 <style>
 * {
@@ -253,6 +320,50 @@ footer {
   font-size: 14px;
 }
 
+.roadside-faq {
+  margin: 24px 0;
+  padding: 22px;
+  background: #171a22;
+  border: 1px solid #2a2d37;
+  border-radius: 22px;
+}
+
+.roadside-faq h2 {
+  margin: 0 0 16px;
+  color: #ffd21c;
+  font-size: 28px;
+  line-height: 1.25;
+}
+
+.roadside-faq details {
+  border-top: 1px solid #343844;
+}
+
+.roadside-faq summary {
+  padding: 16px 0;
+  min-height: 48px;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.roadside-faq summary:focus-visible {
+  outline: 2px solid #ffd21c;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.roadside-faq p {
+  margin: 0 0 18px;
+  color: #ddd;
+  line-height: 1.7;
+}
+
+.roadside-faq a {
+  color: #ffd21c;
+  text-decoration: underline;
+}
+
 @media (max-width: 600px) {
 
   .header-inner {
@@ -295,17 +406,15 @@ footer {
   .section {
     padding: 25px 20px;
   }
-}
 
-/* Compact, keyboard-accessible customer questions. */
-.roadside-faq { margin: 24px 0; padding: 22px; background: #171a22; border: 1px solid #2a2d37; border-radius: 22px; }
-.roadside-faq h2 { margin: 0 0 16px; color: #ffd21c; font-size: 28px; line-height: 1.25; }
-.roadside-faq details { border-top: 1px solid #343844; }
-.roadside-faq summary { padding: 16px 0; min-height: 48px; cursor: pointer; font-weight: 700; line-height: 1.5; }
-.roadside-faq summary:focus-visible { outline: 2px solid #ffd21c; outline-offset: 3px; border-radius: 4px; }
-.roadside-faq p { margin: 0 0 18px; color: #ddd; line-height: 1.7; }
-.roadside-faq a { color: #ffd21c; text-decoration: underline; }
-@media (max-width: 600px) { .roadside-faq { padding: 20px 16px; } .roadside-faq h2 { font-size: 25px; } }
+  .roadside-faq {
+    padding: 20px 16px;
+  }
+
+  .roadside-faq h2 {
+    font-size: 25px;
+  }
+}
 </style>
 </head>
 
@@ -332,33 +441,35 @@ footer {
   <img
     class="logo"
     src="../logo.png"
-    alt="Light It Up Roadside Assistance logo">
+    alt="Light It Up Roadside logo">
 
   <div class="badge">
     24/7 MOBILE SERVICE • EL PASO, TX
   </div>
 
   <h1>
-    Jump Start Service in El Paso, TX
+    Jump Start &amp; Battery Testing in El Paso, TX
   </h1>
 
   <p class="hero-text">
-    Dead or weak battery?
-    Light It Up Roadside provides mobile jump start assistance
-    throughout El Paso, Texas.
+    Dead or weak battery? Light It Up Roadside provides
+    mobile jump starts with battery testing included.
+    We come directly to your vehicle throughout El Paso, Texas.
   </p>
 
   <img
     class="hero-photo"
     src="jump-start-hero.jpg"
-    alt="Light It Up Roadside providing a vehicle jump start in El Paso">
+    alt="Light It Up Roadside providing a vehicle jump start in El Paso"
+    fetchpriority="high">
 
   <div class="photo-caption">
     Real Light It Up Roadside jump start service in El Paso.
   </div>
 
   <div class="price">
-    Jump Starts <span>starting at $45</span>
+    Jump Start &amp; Battery Testing
+    <span>starting at $60</span>
   </div>
 
   <div class="buttons">
@@ -384,45 +495,47 @@ footer {
   <p>
     A dead battery can leave you stranded at home, at work,
     in a parking lot, or on the side of the road.
-    Light It Up Roadside provides mobile jump start service
-    throughout El Paso.
+    Our mobile jump start service brings the equipment
+    directly to your location.
   </p>
 
   <p>
-    If your vehicle will not start because of a dead or weak battery,
-    call or text us for roadside assistance.
+    Instead of simply jump-starting your vehicle, we also
+    test your battery to help you understand its condition
+    and whether a replacement may be needed.
+    Both services are included in our $60 starting price.
   </p>
 
 </section>
 
 <section class="section">
 
-  <h2>Our Jump Start Service</h2>
+  <h2>What's Included in Our Service?</h2>
 
   <div class="features">
 
     <div class="feature">
-      <strong>🔋 Dead Batteries</strong>
+      <strong>⚡ Mobile Jump Start</strong>
       <span class="check">✓</span>
-      Mobile jump start assistance
+      Assistance with weak or discharged vehicle batteries.
     </div>
 
     <div class="feature">
-      <strong>📍 El Paso Service</strong>
+      <strong>🔋 Battery Testing Included</strong>
       <span class="check">✓</span>
-      We come to your location
+      On-site battery testing to help evaluate battery condition.
     </div>
 
     <div class="feature">
-      <strong>⚡ 24/7 Assistance</strong>
+      <strong>📍 Mobile El Paso Service</strong>
       <span class="check">✓</span>
-      Roadside help when you need it
+      We come to your home, workplace or roadside location.
     </div>
 
     <div class="feature">
-      <strong>📱 Call or Text</strong>
+      <strong>🕐 24/7 Assistance</strong>
       <span class="check">✓</span>
-      Easy contact for service
+      Emergency roadside assistance, subject to availability.
     </div>
 
   </div>
@@ -431,31 +544,218 @@ footer {
 
 <section class="section">
 
-  <h2>Battery Won't Start?</h2>
+  <h2>Jump Start Capabilities</h2>
 
   <p>
-    Sometimes a vehicle only needs a jump start to get back on the road.
-    If the battery continues giving you trouble, Light It Up Roadside
-    also offers mobile battery testing and battery installation services.
+    Our professional jump-start equipment is designed
+    to assist a wide range of gasoline and diesel vehicles.
+  </p>
+
+  <div class="features">
+
+    <div class="feature">
+      <strong>Gasoline Engines</strong>
+      <span class="check">✓</span>
+      Up to 10 liters
+    </div>
+
+    <div class="feature">
+      <strong>Diesel Engines</strong>
+      <span class="check">✓</span>
+      Up to 8 liters
+    </div>
+
+    <div class="feature">
+      <strong>Passenger Vehicles</strong>
+      <span class="check">✓</span>
+      Cars, SUVs and compatible vehicles
+    </div>
+
+    <div class="feature">
+      <strong>Pickup Trucks</strong>
+      <span class="check">✓</span>
+      Compatible gasoline and diesel pickups
+    </div>
+
+  </div>
+
+  <p>
+    Service depends on vehicle compatibility, battery condition
+    and the cause of the starting problem. Contact us with
+    your vehicle's year, make and model to confirm service.
   </p>
 
 </section>
 
+<section class="section">
+
+  <h2>Why Battery Testing Matters</h2>
+
+  <img
+    class="hero-photo"
+    src="../battery%20tester.jpg"
+    alt="Light It Up Roadside performing mobile car battery testing in El Paso"
+    loading="lazy">
+
+  <div class="photo-caption">
+    Real on-site battery testing by Light It Up Roadside.
+  </div>
+
+  <p>
+    A successful jump start does not necessarily mean
+    your battery is in good condition. Battery testing
+    helps evaluate whether your battery may be weak,
+    discharged or approaching the end of its useful life.
+  </p>
+
+  <p>
+    Common signs of battery trouble include:
+  </p>
+
+  <ul>
+    <li>Slow engine cranking.</li>
+    <li>Clicking when attempting to start.</li>
+    <li>Repeatedly needing a jump start.</li>
+    <li>Dim lights or electrical problems.</li>
+    <li>Difficulty starting after the vehicle has been parked.</li>
+  </ul>
+
+  <p>
+    These symptoms can also be caused by other vehicle
+    components. Battery testing is not a complete
+    mechanical or electrical diagnosis.
+  </p>
+
+</section>
+
+<section class="section">
+
+  <h2>What If Your Battery Needs Replacement?</h2>
+
+  <p>
+    If testing indicates that your battery may need replacement,
+    Light It Up Roadside also offers mobile battery installation
+    as a separate service.
+  </p>
+
+  <p>
+    Battery installation labor starts at $80.
+    Customers must purchase and provide a compatible
+    replacement battery. The battery itself is not included.
+  </p>
+
+  <a class="service-link" href="../battery-installation-el-paso/">
+    🔧 View Battery Installation Service →
+  </a>
+
+</section>
 
 <section class="roadside-faq" aria-labelledby="faq-heading">
-  <h2 id="faq-heading">Jump Start Questions</h2>
+
+  <h2 id="faq-heading">
+    Frequently Asked Questions
+  </h2>
+
   <details>
     <summary>How much does a jump start cost in El Paso?</summary>
-    <p>Jump start service starts at $45. Pricing varies with the distance to your location. We’ll agree on your price before heading out.</p>
+    <p>
+      Our mobile jump start service starts at $60 and includes
+      battery testing. Final pricing may vary depending on
+      location, time of service and vehicle requirements.
+      We confirm your quote before dispatch.
+    </p>
   </details>
+
   <details>
-    <summary>Can you come to my vehicle for a jump start?</summary>
-    <p>Yes. We provide mobile jump start service throughout El Paso, including homes, workplaces and parking lots. Share your location when you call or text.</p>
+    <summary>Is battery testing included in the jump start price?</summary>
+    <p>
+      Yes. Our combined jump start and battery testing service
+      starts at $60. On-site battery testing is included.
+    </p>
   </details>
+
   <details>
-    <summary>What if I need more than a jump start?</summary>
-    <p>We also offer mobile battery testing and battery installation. Contact us with your vehicle details and symptoms to discuss the service you need.</p>
+    <summary>Do you offer 24-hour jump start service in El Paso?</summary>
+    <p>
+      Yes. Light It Up Roadside offers 24/7 emergency jump
+      start assistance throughout El Paso, subject to availability.
+    </p>
   </details>
+
+  <details>
+    <summary>Can you jump-start diesel trucks?</summary>
+    <p>
+      Yes. Our equipment can assist compatible diesel engines
+      up to 8 liters and gasoline engines up to 10 liters.
+      Contact us with your vehicle information to confirm service.
+    </p>
+  </details>
+
+  <details>
+    <summary>Can you jump-start my vehicle at home or work?</summary>
+    <p>
+      Yes. We provide mobile assistance at homes, workplaces,
+      parking lots and safe, accessible roadside locations
+      throughout El Paso.
+    </p>
+  </details>
+
+  <details>
+    <summary>How long does it take for roadside assistance to arrive?</summary>
+    <p>
+      Typical arrival is 20–40 minutes when available.
+      Actual arrival times depend on your location, traffic
+      and current service requests.
+    </p>
+  </details>
+
+  <details>
+    <summary>How do I know if my battery needs replacement?</summary>
+    <p>
+      Slow cranking, repeated jump starts and difficulty
+      starting can indicate battery problems.
+      Our battery testing service helps evaluate its condition.
+    </p>
+  </details>
+
+  <details>
+    <summary>What if my vehicle still will not start?</summary>
+    <p>
+      A vehicle that will not start may have a battery,
+      starter, alternator or other mechanical or electrical issue.
+      A jump start cannot repair every starting problem.
+    </p>
+  </details>
+
+  <details>
+    <summary>Do you install replacement car batteries?</summary>
+    <p>
+      Yes. Mobile battery installation is available separately,
+      starting at $80 for labor. You must purchase and provide
+      a compatible replacement battery.
+    </p>
+  </details>
+
+  <details>
+    <summary>What information do you need before dispatch?</summary>
+    <p>
+      Please provide your exact location, vehicle year,
+      make and model, and a description of what happens
+      when you attempt to start your vehicle.
+    </p>
+  </details>
+
+  <details>
+    <summary>How do I request a jump start near me?</summary>
+    <p>
+      If you are in El Paso, Texas, call or text Light It Up
+      Roadside at
+      <a href="tel:+19152472969">(915) 247-2969</a>.
+      We will confirm availability, pricing and an estimated
+      arrival time.
+    </p>
+  </details>
+
 </section>
 
 <section class="section trust">
@@ -463,31 +763,30 @@ footer {
   <img
     class="trust-logo"
     src="../logo.png"
-    alt="Light It Up Roadside Assistance">
+    alt="Light It Up Roadside logo">
 
   <h2>Local Mobile Roadside Assistance</h2>
 
   <p>
-    Light It Up Roadside provides mobile roadside assistance
-    directly where you need it in El Paso, Texas.
+    Light It Up Roadside is a locally operated roadside
+    assistance business serving El Paso, Texas.
+    We focus on clear communication, upfront quotes
+    and convenient mobile service.
   </p>
 
-  <p>
-    In addition to jump starts, we provide car lockouts,
-    tire changes, battery service, and emergency fuel delivery.
-  </p>
+  <a
+    class="service-link"
+    href="https://share.google/wR95Ld4bRL0br5zCy"
+    target="_blank"
+    rel="noopener noreferrer">
+    ★ View Our Google Reviews →
+  </a>
 
 </section>
 
 <section class="section">
 
   <h2>More Roadside Services in El Paso</h2>
-
-  <p>
-    Need something other than a jump start?
-    Light It Up Roadside provides additional mobile roadside
-    services throughout El Paso, Texas.
-  </p>
 
   <div class="service-links">
 
@@ -496,15 +795,11 @@ footer {
     </a>
 
     <a class="service-link" href="../tire-change-el-paso/">
-      🛞 Tire Change Service
+      🛞 Spare Tire Change Service
     </a>
 
     <a class="service-link" href="../fuel-delivery-el-paso/">
       ⛽ Fuel Delivery
-    </a>
-
-    <a class="service-link" href="../battery-test-el-paso/">
-      🔋 Battery Testing
     </a>
 
     <a class="service-link" href="../battery-installation-el-paso/">
@@ -520,7 +815,12 @@ footer {
   <h2>Need a Jump Start Right Now?</h2>
 
   <p>
-    Call or text Light It Up Roadside and we'll come to you.
+    Jump Start &amp; Battery Testing Starting at $60
+  </p>
+
+  <p>
+    Call Light It Up Roadside for mobile assistance
+    in El Paso, Texas.
   </p>
 
   <a class="button" href="tel:+19152472969">
@@ -534,7 +834,7 @@ footer {
 </main>
 
 <footer>
-  © 2026 Light It Up Roadside Assistance<br>
+  © 2026 Light It Up Roadside<br>
   El Paso, Texas
 </footer>
 
